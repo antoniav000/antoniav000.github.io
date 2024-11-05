@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Advent Calendar</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
@@ -15,5 +15,17 @@
     </main>
     <footer id="footer"></footer>
     <script src="dist/index.js"></script>
+    
+    <div id="calendar" class="calendar-grid"></div>
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close" class="close">&times;</span>
+      <h2 id="day-title"></h2>
+      <p id="day-message"></p>
+      <div id="links"></div>
+    </div>
+  </div>
+  
 </body>
 </html>
