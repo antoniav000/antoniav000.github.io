@@ -6,12 +6,13 @@ interface DayContent {
   
   const days: DayContent[] = [
     // Populate with data for each day
-    { image: "frosty.jpeg", message: "message", links: [{ text: "Video 1", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+    { image: "assets/frosty.jpeg", message: "message", links: [{ text: "Video 1", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
     // ... add up to 25 items
   ];
   
   function createCalendar() {
     const calendar = document.getElementById("calendar");
+    if (!calendar) return;
   
     days.forEach((day, index) => {
       const dayDiv = document.createElement("div");
@@ -47,10 +48,11 @@ interface DayContent {
       anchor.target = "_blank";
       linksDiv.appendChild(anchor);
     });
-  
     modal.style.display = "flex";
   }
   
+  createCalendar();
+
   function closeModal() {
     const modal = document.getElementById("modal") as HTMLDivElement;
     modal.style.display = "none";
@@ -61,6 +63,7 @@ interface DayContent {
     const modal = document.getElementById("modal");
     if (event.target === modal) closeModal();
   });
-  
-  createCalendar();
+
+  // Log the days array to the console for debugging
+  console.log(days);
   
