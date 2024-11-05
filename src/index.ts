@@ -6,7 +6,13 @@ interface DayContent {
   
   const days: DayContent[] = [
     // Populate with data for each day
-    { image: "assets/frosty.jpeg", message: "message", links: [{ text: "Video 1", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+    { image: "assets/frosty.jpeg", message: "here is the message", links: [{ text: "Frosty the Snowman", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+    { image: "assets/ohchristmastree.jpeg", message: "here is the message", links: [{ text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" },
+         { text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+    { image: "assets/christmascar.jpeg", message: "here is the message", links: [{ text: "Car Driving", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+    { image: "assets/escalator.jpeg", message: "here is the message", links: [{ text: "Christmas at the Mall", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+    { image: "assets/pullingsled.jpeg", message: "here is the message", links: [{ text: "Out in the snow", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+    { image: "assets/santasleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
     // ... add up to 25 items
   ];
   
@@ -24,7 +30,7 @@ interface DayContent {
       dayDiv.appendChild(img);
   
       const button = document.createElement("button");
-      button.textContent = `Day ${index + 1}`;
+      button.textContent = `Dec. ${index + 1}`;
       button.addEventListener("click", () => openModal(day));
       dayDiv.appendChild(button);
   
@@ -47,6 +53,7 @@ interface DayContent {
       anchor.textContent = link.text;
       anchor.target = "_blank";
       linksDiv.appendChild(anchor);
+      linksDiv.appendChild(document.createElement("br"));
     });
     modal.style.display = "flex";
   }
