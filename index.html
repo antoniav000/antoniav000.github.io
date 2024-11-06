@@ -2,29 +2,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advent Calendar</title>
-    <link rel="stylesheet" href="dist/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Advent Calendar</title>
+   <link rel="stylesheet" href="dist/style.css">
 </head>
 <body>
-    <header id="header"></header>
-    <main id="content">
-        <h1>Christmas Countdown Calendar</h1>
-        <div id="calendar" class="calendar-grid"></div>
-    </main>
-    <footer id="footer"></footer>
+   <header id="header"></header>
+   <main id="content">
+       <h1>Christmas Countdown Calendar for 达贤</h1>
+       <p id="instructions"> Each part is locked until the date. </p>
+       <div id="calendar" class="calendar-grid"></div>
+   </main>
+   <footer id="footer"></footer>
 
-  <!-- Modal -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span id="close" class="close">&times;</span>
-      <h2 id="day-title"></h2>
-      <p id="day-message"></p>
-      <div id="links"></div>
-    </div>
-  </div>
 
-  <script src="dist/index.js"></script>
+ <!-- Modal -->
+ <div id="modal" class="modal">
+   <div class="modal-content">
+     <span id="close" class="close">&times;</span>
+     <h2 id="day-title"></h2>
+     <p id="day-message"></p>
+     <div id="links"></div>
+   </div>
+ </div>
+
+
+ <script src="dist/index.js"></script>
 </body>
 </html>
