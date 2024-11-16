@@ -85,6 +85,27 @@ window.addEventListener("click", (event) => {
   if (event.target === modal) closeModal();
 });
 
+// Select envelope image and modal elements
+const envelope = document.getElementById("envelope") as HTMLImageElement;
+const envelopeModal = document.getElementById("envelope-modal") as HTMLDivElement;
+const envelopeClose = document.getElementById("envelope-close") as HTMLSpanElement;
+
+// Show modal when envelope is clicked
+envelope.addEventListener("click", () => {
+  envelopeModal.style.display = "flex";
+});
+
+// Close modal when 'x' button is clicked
+envelopeClose.addEventListener("click", () => {
+  envelopeModal.style.display = "none";
+});
+
+// Close modal when clicking outside of it
+window.addEventListener("click", (event) => {
+  if (event.target === envelopeModal) {
+    envelopeModal.style.display = "none";
+  }
+}); 
 
 // Log the days array to the console for debugging
 console.log(days);

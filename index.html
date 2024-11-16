@@ -11,13 +11,14 @@
    <header id="header"></header>
    <main id="content">
        <h1>Christmas Countdown Calendar for 达贤</h1>
-       <p id="instructions"> Each part is locked until the date. </p>
+       <img id="envelope" src="assets/envelope.jpeg" alt="Envelope icon" style="cursor: pointer; width: 50px;">
+       <p id="instructions"> To You </p>
        <div id="calendar" class="calendar-grid"></div>
    </main>
    <footer id="footer"></footer>
 
 
- <!-- Modal -->
+ <!-- Modal for calendar pop-ups?-->
  <div id="modal" class="modal">
    <div class="modal-content">
      <span id="close" class="close">&times;</span>
@@ -27,6 +28,13 @@
    </div>
  </div>
 
+ <!-- Modal for envelope pop-up message -->
+ <div id="envelope-modal" style="display: none;">
+  <div class="modal-content">
+    <span id="envelope-close" class="close">&times;</span>
+    <p>Since you haven't had the chance to know about </p>
+  </div>
+</div>
 
  <script src="dist/index.js"></script>
 </body>
