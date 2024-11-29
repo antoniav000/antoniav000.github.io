@@ -58,7 +58,7 @@ interface DayContent {
     //Set the button text
     button.textContent = `Dec. ${index + 1}`;
 
-    const dayDate = new Date(today.getFullYear(), 11, index + 1); // December (month 11), index + 1
+    const dayDate = new Date(today.getFullYear(), 10, index + 1); // December (month 11), index + 1
     if (today < dayDate) {
       button.textContent = "Locked";
       button.disabled = true;
