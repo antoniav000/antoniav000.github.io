@@ -36,20 +36,40 @@ interface DayContent {
   { image: "assets/holynight2.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 ];
  function createCalendar() {
   const calendar = document.getElementById("calendar");
   if (!calendar) return;
+
+  //Get current date
+  const today = new Date();
+
    days.forEach((day, index) => {
     const dayDiv = document.createElement("div");
     dayDiv.classList.add("calendar-day");
-     const img = document.createElement("img");
+
+    const img = document.createElement("img");
     img.src = day.image;
     img.alt = `Day ${index + 1}`;
     dayDiv.appendChild(img);
-     const button = document.createElement("button");
+
+    const button = document.createElement("button");
+
+    //Set the button text
     button.textContent = `Dec. ${index + 1}`;
-    button.addEventListener("click", () => openModal(day));
+
+    const dayDate = new Date(today.getFullYear(), 10, index + 1); // December (month 11), index + 1
+    if (today < dayDate) {
+      button.textContent = "Locked";
+      button.disabled = true;
+    } else {
+      button.addEventListener("click", () => openModal(day));
+    }
+
+    //Previously just this:
+    //button.addEventListener("click", () => openModal(day));
+
     dayDiv.appendChild(button);
      calendar?.appendChild(dayDiv);
   });
