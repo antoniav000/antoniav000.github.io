@@ -36,7 +36,6 @@ interface DayContent {
   { image: "assets/holynight2.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
-  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 ];
  function createCalendar() {
   const calendar = document.getElementById("calendar");
@@ -59,7 +58,7 @@ interface DayContent {
     //Set the button text
     button.textContent = `Dec. ${index + 1}`;
 
-    const dayDate = new Date(today.getFullYear(), 10, index + 1); // December (month 11), index + 1
+    const dayDate = new Date(today.getFullYear(), 11, index + 1); // December (month 11), index + 1
     if (today < dayDate) {
       button.textContent = "Locked";
       button.disabled = true;
