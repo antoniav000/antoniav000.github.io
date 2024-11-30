@@ -69,7 +69,16 @@ interface DayContent {
     links: [{ text: "The Nutcracker Synopsis", url: "https://www.bostonballet.org/stories/the-nutcracker-synopsis/" },
       { text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared" },] },
   
-  { image: "assets/santasleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/rockefellercenter.jpg",
+     message: `Since we’re going to have a busy day today, I only included one song here. ~ 
+     The song gets off to a slow start, but once you get past the first part, it gets a little more lively. 
+     It’s about an Irish couple who met and fell in love in New York. They grew old together and despite arguments (as in the part of the song where 
+     they insult each other haha), they care about each other. A few notes on the lyrics: For the part where they say “Sinatra was swinging,”
+    they mean that music by Frank Sinatra (he appears later in the calendar) was playing The “NYPD choir” means the New York City Police Department's 
+    choir (actually the NYPD doesn’t have a choir; it only exists in the song haha)`, 
+    links: [{ text: "Fairy Tale of New York Lyrics", url: "https://open.spotify.com/track/4soJpnUFA0SPs7XTi6QIVp?si=22a60cf4e3804473" },
+      {text: "Fairy Tale of New York Performance", url: "https://youtu.be/eeOVR09ohSU?feature=shared"},
+    ] },
   
   { image: "assets/mistletoe.jpeg", message: "Mistletoe is a traditional holiday plant with small white berries, commonly used as a decoration during Christmas. According to custom, anyone found standing under the mistletoe is meant to share a kiss, representing love, goodwill, and festive spirit. This playful tradition adds a touch of charm and fun to holiday celebrations, enhancing the joy of the season.",
       links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
