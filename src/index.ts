@@ -48,11 +48,16 @@ interface DayContent {
     to make him reflect on his actions and stop being such a selfish bastard. In the end, Scrooge wakes up 
     happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
     Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
-    
-  links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
+    links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
     { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },
   
-  { image: "assets/christmastree2.jpg", message: "here is the message", links: [{ text: "Christmas at the Mall", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/christmastree2.jpg", 
+    message: `Christmas trees are a little self-explanatory, so I’ll just include the article on how they 
+    became a tradition and two songs about them. I’m excited for the day that we’ll have a home where we 
+    can put one up together. You have a gift waiting for you in my locker. ~`, 
+    links: [{ text: "How Christmas Trees Became a Holiday Tradition", url: "https://time.com/5736523/history-of-christmas-trees/" },
+      { text: "Oh, Christmas Tree", url: "https://open.spotify.com/track/2Tgnu0yfBZdOUshJHND7Mr?si=c74b40adfcc54a8c" },
+      { text: "Rockin' Around the Christmas Tree by Brenda Lee", url: "https://open.spotify.com/track/7uwxlZu8ZWRFPNzbsPnNyZ?si=adaa5b2bc13a432b" },] },
   
   { image: "assets/pullingsled.jpeg", message: "here is the message", links: [{ text: "Out in the snow", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
