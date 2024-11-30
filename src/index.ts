@@ -108,7 +108,7 @@ interface DayContent {
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Sleigh Ride", url: "https://open.spotify.com/track/7fUYUcWy853HS8YJn0b3Sr?si=c322984b259b4225" },
       {text:"A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared"}] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
-  { image: "assets/leg-lamp.jpeg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
+  { image: "assets/achristmasstory.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
