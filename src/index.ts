@@ -94,7 +94,7 @@ interface DayContent {
     links: [{ text: "What's This? (from The Nightmare Before Christmas", url: "https://youtu.be/o36k8upu3Ks?feature=shared" },
       { text: "Krampus", url: "https://youtu.be/VbkGuCozc9M?feature=shared" },] },
   
-  { image: "assets/couple.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/blackbgcandycanes.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
   { image: "assets/candycanes.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
