@@ -119,7 +119,8 @@ interface DayContent {
   
   { image: "assets/fruitcake.jpeg", 
     message: `The Grinch is a cartoon character from authors Dr. Suess’s “The Grinch” book, published in 1957. 
-    In his story, the Grinch is a mean hateful creature who despises Christmas. The village below where he lives 
+    In his story, the Grinch is a mean hateful creature who despises Christmas (he's the character from the Cracker 
+    Barrel who you said looked like the Duolingo owl haha). The village below where he lives 
     is called Whoville, and it has many creatures who love and always celebrate Christmas. Since he hates the Whos, 
     on Christmas Eve he decides to go from house to house to steal all of their gifts in decorations, thinking “haha! 
     Imagine how rotten they will feel in the morning!” To his surprise, when they wake up, they still see Christmas 
