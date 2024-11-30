@@ -31,8 +31,18 @@ interface DayContent {
   { image: "assets/christmastree2.jpg", message: "here is the message", links: [{ text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" },
     { text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" },] },
 
-  { image: "assets/scroogemarley.jpg", message: "here is the message", links: [{ text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" },
-    { text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" },] },
+  { image: "assets/scroogemarley.jpg", 
+   message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
+    author from the Victorian era. The story revolves around a character called Ebenezer Scrooge 
+    who thinks of nobody but himself and his own money. One Christmas Eve, the ghost of his former 
+    co-worker Jacob Marley comes to visit him, warning that if he doesn’t change his greedy ways, he’ll 
+    end up damned to hell. Since Scrooge is unconvinced, Marley sends three ghosts (past, present, and future) 
+    to make him reflect on his actions and stop being such a selfish bastard. In the end, Scrooge wakes up 
+    happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
+    Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
+    
+  links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
+    { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },
   
   { image: "assets/escalator.jpeg", message: "here is the message", links: [{ text: "Christmas at the Mall", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
