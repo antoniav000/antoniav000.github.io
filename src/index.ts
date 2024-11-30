@@ -183,7 +183,14 @@ interface DayContent {
       { text: "A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" },
       { text: "Home for the Holidays - SNL", url: "https://youtu.be/VxVXYp2KIeE?feature=shared" },] },
 
-  { image: "assets/greenhouse.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/greenhouse.jpg", 
+    message: `Gingerbread houses and gingerbread men are another fun part of Christmas festivities, and they originated 
+    in part from the witch’s candy house in the German fairytale of “Hansel and Gretel.” The second link here is one of 
+    the most popular Christmas songs of all time haha. You have another gift waiting for you in my locker. ~`, 
+    links: [{ text: "A Brief History of the Gingerbread House", url: "https://www.theguardian.com/travel/2018/dec/22/a-brief-history-of-the-gingerbread-house" },
+      { text: "All I Want For Christmas is You by Mariah Carey", url: "https://youtu.be/yXQViqx6GMY?feature=shared" },
+      { text: "Last Christmas by Wham!", url: "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78?si=c46635a1e25d4798" },
+    ] },
 
   { image: "assets/wintericeskating.jpg", 
     message: `Here are three songs about the snowy winter. ~ The first is a cover that I’d never heard before, 
