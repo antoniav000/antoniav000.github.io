@@ -5,11 +5,11 @@ interface DayContent {
 }
  const days: DayContent[] = [
   { image: "assets/catslookingout.jpg", 
-    message: `Today is December 1st, so here are three songs welcoming the new month! 
-    The first one by Milet I hadn’t heard before, but I do like it. The second one I 
-    heard for the first time two years ago, and I thought it was a romantic song… after 
-    reading the lyrics and paying more attention to the video though, I think it might 
-    be a little darker than that haha.`, 
+    message: `Today is December 1st, so here are three songs welcoming the new month! The first one by Milet I hadn’t heard before, but I do 
+    like it. 
+    
+    The second one I heard for the first time two years ago, and I thought it was a romantic song… after reading the lyrics and 
+    paying more attention to the video though, I think it might be a little darker than that haha.`, 
     links: [{ text: "December by Milet", url: "https://open.spotify.com/track/6OTYbrTn8BUb1WViI9HaAS?si=0a5e0c3b2a98422f" },
       { text: "This December by Ricky Montgomerry", url: "https://youtu.be/gzxk4KepBOc?feature=shared" },
       { text: "This December Lyrics", url: "https://open.spotify.com/track/3gjRRs7gmh3Euynu1cau1d?si=d89b381661644200" },
@@ -39,13 +39,13 @@ interface DayContent {
     { text: "The Snowman", url: "https://youtu.be/5A3THighARU?feature=shared" },
     { text: "Snowman by Sia", url: "https://open.spotify.com/track/3b95085PI7P3X3oC16Z3Wd?si=08c467f2c8b84f33" },] },
 
-  { image: "assets/scroogemarley.jpg", 
+  { image: "assets/xmascarol.jpg", 
    message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
     author from the Victorian era. The story revolves around a character called Ebenezer Scrooge 
     who thinks of nobody but himself and his own money. One Christmas Eve, the ghost of his former 
     co-worker Jacob Marley comes to visit him, warning that if he doesn’t change his greedy ways, he’ll 
     end up damned to hell. Since Scrooge is unconvinced, Marley sends three ghosts (past, present, and future) 
-    to make him reflect on his actions and stop being such a selfish bastard. In the end, Scrooge wakes up 
+    to make him reflect on his actions and stop being such a selfish bastard. \n In the end, Scrooge wakes up 
     happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
     Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
     links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
