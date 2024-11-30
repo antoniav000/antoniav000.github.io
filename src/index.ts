@@ -28,8 +28,16 @@ interface DayContent {
       { text: "Twas the Night Before Christmas Poem", url: "https://www.poetryfoundation.org/poems/43171/a-visit-from-st-nicholas" },
       { text: "Santa Claus is Coming to Town", url: "https://open.spotify.com/track/6syO6UTl8QiiWADJy3Uy2d?si=a87fa2fd6be148ae" }] },
 
-  { image: "assets/christmastree2.jpg", message: "here is the message", links: [{ text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" },
-    { text: "Oh Christmas Tree", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" },] },
+  { image: "assets/snowman.jpg", message: `Snowmen are a big part of winter, and so of course there are
+    a lot of Christmas songs and stories about them. “Frosty the Snowman” is a story about a snowman who 
+    comes to life after being given a magician's hat to wear on his head haha. The second link, “The Snowman,” 
+    is a famous illustrated story about a snowman that comes to life and spends the night with his creator, a boy. 
+    The flight scene (at 15:10) is the most well-known part, and a reference to it will show up later in the calendar. 
+    The final link is a Christmas song by Sia that was popular when it came out because there was a trend where couples
+    would dance to it haha.`, 
+    links: [{ text: "Frosty the Snowman Song", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=5ca6425942d54470" },
+    { text: "The Snowman", url: "https://youtu.be/5A3THighARU?feature=shared" },
+    { text: "Snowman by Sia", url: "https://open.spotify.com/track/3b95085PI7P3X3oC16Z3Wd?si=08c467f2c8b84f33" },] },
 
   { image: "assets/scroogemarley.jpg", 
    message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
@@ -44,7 +52,7 @@ interface DayContent {
   links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
     { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },
   
-  { image: "assets/escalator.jpeg", message: "here is the message", links: [{ text: "Christmas at the Mall", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/christmastree2.jpg", message: "here is the message", links: [{ text: "Christmas at the Mall", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
   { image: "assets/pullingsled.jpeg", message: "here is the message", links: [{ text: "Out in the snow", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
