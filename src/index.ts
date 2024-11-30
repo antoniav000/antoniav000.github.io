@@ -53,16 +53,18 @@ interface DayContent {
     links: [{ text: "How Christmas Trees Became a Holiday Tradition", url: "https://time.com/5736523/history-of-christmas-trees/" },
       { text: "Oh, Christmas Tree", url: "https://open.spotify.com/track/2Tgnu0yfBZdOUshJHND7Mr?si=c74b40adfcc54a8c" },
       { text: "Rockin' Around the Christmas Tree by Brenda Lee", url: "https://open.spotify.com/track/7uwxlZu8ZWRFPNzbsPnNyZ?si=adaa5b2bc13a432b" },] },
-  
-  { image: "assets/clara.jpg", 
-    message: `The Nutcracker is a classical ballet conceived and composed by Pyotr Ilyich Tchaikovsky in 1892. 
-    The play is set on Christmas Eve and revolves around a character Clara who goes on a magical adventure and 
-    falls in love with a boy who’s been transformed into a nutcracker doll by the evil mouse king. In the magical 
-    world that Clara travels to, she encounters all kinds of magic and dances, including the famous dance of the 
-    Sugar Plum Fairy. This play is really well-known, and I’ve probably gone to see it at least four times before 
-    (it’s especially nice with live music). We should go see it someday!`, 
-    links: [{ text: "The Nutcracker Synopsis", url: "https://www.bostonballet.org/stories/the-nutcracker-synopsis/" },
-      { text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared" },] },
+
+  { image: "assets/xmascarol.jpg", 
+   message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
+    author from the Victorian era. The story revolves around a character called Ebenezer Scrooge 
+    who thinks of nobody but himself and his own money. One Christmas Eve, the ghost of his former 
+    co-worker Jacob Marley comes to visit him, warning that if he doesn’t change his greedy ways, he’ll 
+    end up damned to hell. Since Scrooge is unconvinced, Marley sends three ghosts (past, present, and future) 
+    to make him reflect on his actions and stop being such a selfish bastard. \n In the end, Scrooge wakes up 
+    happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
+    Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
+    links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
+    { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] }, 
   
   { image: "assets/rockefellercenter.jpg",
      message: `Since we’re going to have a busy day today, I only included one song here. ~ 
@@ -78,17 +80,15 @@ interface DayContent {
   { image: "assets/jackfrost2.jpg", message: `message`,
     links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
 
-  { image: "assets/xmascarol.jpg", 
-   message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
-    author from the Victorian era. The story revolves around a character called Ebenezer Scrooge 
-    who thinks of nobody but himself and his own money. One Christmas Eve, the ghost of his former 
-    co-worker Jacob Marley comes to visit him, warning that if he doesn’t change his greedy ways, he’ll 
-    end up damned to hell. Since Scrooge is unconvinced, Marley sends three ghosts (past, present, and future) 
-    to make him reflect on his actions and stop being such a selfish bastard. \n In the end, Scrooge wakes up 
-    happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
-    Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
-    links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
-    { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },   
+  { image: "assets/clara.jpg", 
+    message: `The Nutcracker is a classical ballet conceived and composed by Pyotr Ilyich Tchaikovsky in 1892. 
+    The play is set on Christmas Eve and revolves around a character Clara who goes on a magical adventure and 
+    falls in love with a boy who’s been transformed into a nutcracker doll by the evil mouse king. In the magical 
+    world that Clara travels to, she encounters all kinds of magic and dances, including the famous dance of the 
+    Sugar Plum Fairy. This play is really well-known, and I’ve probably gone to see it at least four times before 
+    (it’s especially nice with live music). We should go see it someday!`, 
+    links: [{ text: "The Nutcracker Synopsis", url: "https://www.bostonballet.org/stories/the-nutcracker-synopsis/" },
+      { text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared" },] },  
   
   { image: "assets/blackbgcandycanes.jpg", 
     message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
@@ -147,11 +147,33 @@ interface DayContent {
     links: [{ text: "The Legend of the Christmas Stocking", url: "https://www.smithsonianmag.com/arts-culture/the-legend-of-the-christmas-stocking-160854441/" },
       { text: "All My Bells are Ringing by Lenka", url: "https://open.spotify.com/track/4WrP4tyHau0Rq1RyHJZxqZ?si=2648fb526d2b4d8f" }] },
   
-  { image: "assets/wisemen.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/wisemen.jpg", 
+    message: `Las Posadas is a Catholic celebration lasting for nine days (From December 16th to December 24th), 
+    representing the Virgin Mary’s pregnancy. When I attended these as a kid, there was a half hour of praying the 
+    rosary first, which was followed by the singing (most people held candles for this part), then treat bags given 
+    by the host, and finally the piñata.`, 
+    links: [{ text: "El Pueblo de Las Posadas", url: "https://youtu.be/B3RqafZM9lM?feature=shared" },
+      { text: "Las Posadas: A Mexican Christmas Tradition", url: "https://www.franciscanmedia.org/st-anthony-messenger/las-posadas-a-mexican-christmas-tradition/" },
+      { text: "Las Posadas Mexicanos", url: "https://youtu.be/hx1_CKrWrjo?feature=shared" },] },
 
-  { image: "assets/snoopyandwoodstock.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/peanutsputtinguptree.jpg", 
+    message: `“Peanuts” is an American comic strip that ran from 1950 to 2000, with various reruns after. You may
+     have heard of it before, but if not, you’ve at least certainly seen some of the characters from it (Snoopy!). 
+     There are short films from the cartoon from various holidays, including Valentine’s Day, Halloween, Thanksgiving, 
+     and of course, Christmas. :)`, 
+    links: [{ text: "Charlie Brown Christmas", url: "https://youtu.be/LCz4FNe_S1U?feature=shared" },
+      { text: "Celebrating 70 Years of Peanuts", url: "https://schulzmuseum.org/70-years-of-peanuts-online/" },] },
 
-  { image: "assets/mexicandance.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/mexicandance.jpg", 
+    message: `Christmas in Mexico involves a lot of singing, so here are three Latin Christmas songs. The third singer,
+     Juan Gabriel (also known as "Juanga"), is probably one of the most famous Mexican singers from the 70s. I really like 
+     this song because it’s about falling in love on December 24th haha. ~`, 
+    links: [{ text: "Feliz Navidad by José Feliciano", url: "https://open.spotify.com/track/0oPdaY4dXtc3ZsaG17V972?si=7daa1733f5ae4851" },
+      { text: "El Año Viejo by Tony Camargo", url: "https://open.spotify.com/track/6yAXIKVQ7CJnjYoJcZCIzO?si=8c90dfb160ca4284" },
+      { text: "24 de Diciembre by Juan Gabriel", url: "https://open.spotify.com/track/2wGxUqy8G9WJto1nnD8IGu?si=2120c15723c0461d" },
+      { text: "24 de Diciembre Lyrics Translation", url: "https://lyricstranslate.com/en/24-de-diciembre-24th-december.html" },
+      { text: "The Music & Life of Juan Gabriel", url: "https://balletaz.org/your-guide-to-the-music-life-of-juan-gabriel/" },
+    ] },
 
   { image: "assets/homeforchristmas.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
 
