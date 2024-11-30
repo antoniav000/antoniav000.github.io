@@ -80,7 +80,7 @@ interface DayContent {
       {text: "Fairy Tale of New York Performance", url: "https://youtu.be/eeOVR09ohSU?feature=shared"},
     ] },
   
-  { image: "assets/mistletoe.jpeg", message: "Mistletoe is a traditional holiday plant with small white berries, commonly used as a decoration during Christmas. According to custom, anyone found standing under the mistletoe is meant to share a kiss, representing love, goodwill, and festive spirit. This playful tradition adds a touch of charm and fun to holiday celebrations, enhancing the joy of the season.",
+  { image: "assets/jackfrost.jpg", message: `message`,
       links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
   
   { image: "assets/busstop.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
