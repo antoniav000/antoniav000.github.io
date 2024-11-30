@@ -83,9 +83,19 @@ interface DayContent {
   { image: "assets/jackfrost2.jpg", message: `message`,
       links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
 
-  { image: "assets/rudolph.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/rudolph.jpg", 
+    message: `Rudolph the red-nosed reindeer is the reindeer whose place is at the front of Santa’s sleigh. 
+    The sleigh has nine reindeer total, so the rest are  Dasher, Dancer, Prancer, Vixen, Comet and Cupid, and the 
+    final two "Dunder" and "Blixem" (meaning "thunder" and "lightning"). Because Rudolph’s nose is so bright, he 
+    flies at the front to guide the sleigh in bad weather.`, 
+    links: [{ text: "Rudolph the Red-Nosed Reindeer", url: "https://open.spotify.com/track/47otoIkhx3fkdivEXL5OB6?si=6590b4baaa974089" }] },
   
-  { image: "assets/blackbgcandycanes.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/blackbgcandycanes.jpg", 
+    message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
+     about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). `, 
+    links: [{ text: "Candy Cane Lane by Sia", url: "https://open.spotify.com/track/02tDqMrg969BoG5s6TBnbh?si=88f52a33fdef49f2" },
+      { text: "How Candy Canes Are Made", url: "https://youtu.be/QBSrdw19k8M?feature=shared" }
+    ] },
 
   { image: "assets/mistletoe.jpeg", 
     message: `Mistletoe is a plant with white berries that people hang up around Christmas, and the custom is that
@@ -130,7 +140,13 @@ interface DayContent {
     links: [{ text: "How the Grinch Stole Christmas", url: "https://dai.ly/x3ie7xt" }, 
       {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
 
-  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/stocking.jpeg", 
+    message: `According to Christmas legend, if you hang your stockings or socks above the fireplace on Christmas Eve,
+    when you wake up on Christmas morning, they will be full of treats. The first link here talks about how this legend
+    came to be, and the second one is another nice Christmas song. You have yet another gift waiting for you in my locker. ~`, 
+    links: [{ text: "The Legend of the Christmas Stocking", url: "https://www.smithsonianmag.com/arts-culture/the-legend-of-the-christmas-stocking-160854441/" },
+      { text: "All My Bells are Ringing by Lenka", url: "https://open.spotify.com/track/4WrP4tyHau0Rq1RyHJZxqZ?si=2648fb526d2b4d8f" }] },
+  
   { image: "assets/store.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
@@ -138,7 +154,7 @@ interface DayContent {
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
-  { image: "assets/holynight2.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
+  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 ];
