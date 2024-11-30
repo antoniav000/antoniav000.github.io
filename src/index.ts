@@ -132,7 +132,7 @@ interface DayContent {
   { image: "assets/krampus.jpg", 
     message: `In the olden days, they used to tell ghost stories on Christmas Eve, so it’s only appropriate
      that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
-     Christmas” (that movie that I told you about where the Halloween monsters take over Christmas). Jack Skeleton 
+     Christmas” (that movie that I told you about where the Halloween monsters take over Christmas). Jack Skellington 
      accidentally travels from Halloween Land to Christmas Land and discovers the wonder of the holiday. He later 
      decides that the Halloween creatures should take over Christmas, so he kidnaps Santa and tries to take his place haha.
      Also, a little note from the song: “daffy” means “crazy.” The second video is about Krampus, the evil companion of
@@ -149,7 +149,7 @@ interface DayContent {
   
   { image: "assets/wisemen.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
-  { image: "assets/snoopyhouse.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/snoopyandwoodstock.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
   { image: "assets/mexicandance.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
