@@ -124,17 +124,13 @@ interface DayContent {
       { text: "The Office - 12 Days of Christmas Clip", url: "https://youtu.be/m29KmOSh0Mw?feature=shared" },
       { text: "Best Christmas Ever - SNL", url: "https://youtu.be/4WvwX18oMR4?feature=shared" }] },
   
-  { image: "assets/fruitcake.jpeg", 
-    message: `The Grinch is a cartoon character from authors Dr. Suess’s “The Grinch” book, published in 1957. 
-    In his story, the Grinch is a mean hateful creature who despises Christmas (he's the character from the Cracker 
-    Barrel who you said looked like the Duolingo owl haha). The village below where he lives 
-    is called Whoville, and it has many creatures who love and always celebrate Christmas. Since he hates the Whos, 
-    on Christmas Eve he decides to go from house to house to steal all of their gifts in decorations, thinking “haha! 
-    Imagine how rotten they will feel in the morning!” To his surprise, when they wake up, they still see Christmas 
-    carols and enjoy the holiday, and he realizes that the holiday sentiment is more than just the food and presents, 
-    and his heart grows three sizes. Because of this story, people sometimes still refer to a hateful person as a “grinch.”`,
-    links: [{ text: "How the Grinch Stole Christmas", url: "https://dai.ly/x3ie7xt" }, 
-      {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
+  { image: "assets/peanutsputtinguptree.jpg", 
+    message: `“Peanuts” is an American comic strip that ran from 1950 to 2000, with various reruns after. You may
+     have heard of it before, but if not, you’ve at least certainly seen some of the characters from it (Snoopy!). 
+     There are short films from the cartoon from various holidays, including Valentine’s Day, Halloween, Thanksgiving, 
+     and of course, Christmas. :)`, 
+    links: [{ text: "Charlie Brown Christmas", url: "https://youtu.be/LCz4FNe_S1U?feature=shared" },
+      { text: "Celebrating 70 Years of Peanuts", url: "https://schulzmuseum.org/70-years-of-peanuts-online/" },] },
 
   { image: "assets/krampus.jpg", 
     message: `In the olden days, they used to tell ghost stories on Christmas Eve, so it’s only appropriate
@@ -162,14 +158,18 @@ interface DayContent {
     links: [{ text: "El Pueblo de Las Posadas", url: "https://youtu.be/B3RqafZM9lM?feature=shared" },
       { text: "Las Posadas: A Mexican Christmas Tradition", url: "https://www.franciscanmedia.org/st-anthony-messenger/las-posadas-a-mexican-christmas-tradition/" },
       { text: "Las Posadas Mexicanos", url: "https://youtu.be/hx1_CKrWrjo?feature=shared" },] },
-
-  { image: "assets/peanutsputtinguptree.jpg", 
-    message: `“Peanuts” is an American comic strip that ran from 1950 to 2000, with various reruns after. You may
-     have heard of it before, but if not, you’ve at least certainly seen some of the characters from it (Snoopy!). 
-     There are short films from the cartoon from various holidays, including Valentine’s Day, Halloween, Thanksgiving, 
-     and of course, Christmas. :)`, 
-    links: [{ text: "Charlie Brown Christmas", url: "https://youtu.be/LCz4FNe_S1U?feature=shared" },
-      { text: "Celebrating 70 Years of Peanuts", url: "https://schulzmuseum.org/70-years-of-peanuts-online/" },] },
+  
+  { image: "assets/fruitcake.jpeg", 
+    message: `The Grinch is a cartoon character from authors Dr. Suess’s “The Grinch” book, published in 1957. 
+    In his story, the Grinch is a mean hateful creature who despises Christmas (he's the character from the Cracker 
+    Barrel who you said looked like the Duolingo owl haha). The village below where he lives 
+    is called Whoville, and it has many creatures who love and always celebrate Christmas. Since he hates the Whos, 
+    on Christmas Eve he decides to go from house to house to steal all of their gifts in decorations, thinking “haha! 
+    Imagine how rotten they will feel in the morning!” To his surprise, when they wake up, they still see Christmas 
+    carols and enjoy the holiday, and he realizes that the holiday sentiment is more than just the food and presents, 
+    and his heart grows three sizes. Because of this story, people sometimes still refer to a hateful person as a “grinch.”`,
+    links: [{ text: "How the Grinch Stole Christmas", url: "https://dai.ly/x3ie7xt" }, 
+      {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
 
   { image: "assets/mexicandance.jpg", 
     message: `Christmas in Mexico involves a lot of singing, so here are three Latin Christmas songs. The third singer,
