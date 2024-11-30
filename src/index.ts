@@ -39,17 +39,12 @@ interface DayContent {
     { text: "The Snowman", url: "https://youtu.be/5A3THighARU?feature=shared" },
     { text: "Snowman by Sia", url: "https://open.spotify.com/track/3b95085PI7P3X3oC16Z3Wd?si=08c467f2c8b84f33" },] },
 
-  { image: "assets/xmascarol.jpg", 
-   message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
-    author from the Victorian era. The story revolves around a character called Ebenezer Scrooge 
-    who thinks of nobody but himself and his own money. One Christmas Eve, the ghost of his former 
-    co-worker Jacob Marley comes to visit him, warning that if he doesn’t change his greedy ways, he’ll 
-    end up damned to hell. Since Scrooge is unconvinced, Marley sends three ghosts (past, present, and future) 
-    to make him reflect on his actions and stop being such a selfish bastard. \n In the end, Scrooge wakes up 
-    happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
-    Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
-    links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
-    { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },
+  { image: "assets/rudolph.jpg", 
+    message: `Rudolph the red-nosed reindeer is the reindeer whose place is at the front of Santa’s sleigh. 
+    The sleigh has nine reindeer total, so the rest are  Dasher, Dancer, Prancer, Vixen, Comet and Cupid, and the 
+    final two "Dunder" and "Blixem" (meaning "thunder" and "lightning"). Because Rudolph’s nose is so bright, he 
+    flies at the front to guide the sleigh in bad weather.`, 
+    links: [{ text: "Rudolph the Red-Nosed Reindeer", url: "https://open.spotify.com/track/47otoIkhx3fkdivEXL5OB6?si=6590b4baaa974089" }] },
   
   { image: "assets/christmastree2.jpg", 
     message: `Christmas trees are a little self-explanatory, so I’ll just include the article on how they 
@@ -83,12 +78,17 @@ interface DayContent {
   { image: "assets/jackfrost2.jpg", message: `message`,
       links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
 
-  { image: "assets/rudolph.jpg", 
-    message: `Rudolph the red-nosed reindeer is the reindeer whose place is at the front of Santa’s sleigh. 
-    The sleigh has nine reindeer total, so the rest are  Dasher, Dancer, Prancer, Vixen, Comet and Cupid, and the 
-    final two "Dunder" and "Blixem" (meaning "thunder" and "lightning"). Because Rudolph’s nose is so bright, he 
-    flies at the front to guide the sleigh in bad weather.`, 
-    links: [{ text: "Rudolph the Red-Nosed Reindeer", url: "https://open.spotify.com/track/47otoIkhx3fkdivEXL5OB6?si=6590b4baaa974089" }] },
+  { image: "assets/xmascarol.jpg", 
+   message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
+    author from the Victorian era. The story revolves around a character called Ebenezer Scrooge 
+    who thinks of nobody but himself and his own money. One Christmas Eve, the ghost of his former 
+    co-worker Jacob Marley comes to visit him, warning that if he doesn’t change his greedy ways, he’ll 
+    end up damned to hell. Since Scrooge is unconvinced, Marley sends three ghosts (past, present, and future) 
+    to make him reflect on his actions and stop being such a selfish bastard. \n In the end, Scrooge wakes up 
+    happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
+    Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
+    links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
+    { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },    
   
   { image: "assets/blackbgcandycanes.jpg", 
     message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
@@ -149,11 +149,16 @@ interface DayContent {
   
   { image: "assets/wisemen.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
+  { image: "assets/store.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+
   { image: "assets/mexicandance.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
-  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+
   { image: "assets/youllshootyoureyeout.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
+
+  { image: "assets/gingerbread.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
-  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
