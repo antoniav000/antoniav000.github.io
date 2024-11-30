@@ -7,7 +7,7 @@ interface DayContent {
   // Populate with data for each day
   { image: "assets/ohchristmastree.jpeg", 
     message: `Christmas is a joyful holiday celebrated worldwide each December, commemorating the birth 
-    of Jesus Christ in Christian tradition. It’s a time of togetherness, marked by festive decorations, 
+    of Jesus Christ in Christian tradition. It is a time of togetherness, marked by festive decorations, 
     gift-giving, and gatherings with loved ones. Many enjoy customs like decorating a tree, exchanging presents, 
     and sharing holiday meals, all in the spirit of spreading warmth, generosity, and hope.`, 
     links: [{ text: "It's Beginning to Look a Lot Like Christmas", url: "https://open.spotify.com/track/0v2HESaEiiIu9q1cJi3wFn?si=b0adca4c7ce84a11" }] },
@@ -27,16 +27,26 @@ interface DayContent {
   { image: "assets/christmascar.jpeg", message: "here is the message", links: [{ text: "Car Driving", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
   { image: "assets/escalator.jpeg", message: "here is the message", links: [{ text: "Christmas at the Mall", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/pullingsled.jpeg", message: "here is the message", links: [{ text: "Out in the snow", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/santasleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/mistletoe.jpeg", message: "Mistletoe is a traditional holiday plant with small white berries, commonly used as a decoration during Christmas. According to custom, anyone found standing under the mistletoe is meant to share a kiss, representing love, goodwill, and festive spirit. This playful tradition adds a touch of charm and fun to holiday celebrations, enhancing the joy of the season.",
       links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
+  
   { image: "assets/busstop.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/couple.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/candycanes.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/lamppost.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/holly.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/stocking.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  
   { image: "assets/store.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/nutcracker.jpeg", message: "The Nutcracker is a holiday story and ballet, celebrated as a Christmas tradition. It follows the magical journey of a young girl, Clara, who receives a nutcracker doll on Christmas Eve and finds herself in a world of dancing sweets and a fierce battle with the Mouse King. Set to Tchaikovsky’s music, The Nutcracker brings to life characters like the Sugar Plum Fairy and the Nutcracker Prince, creating an experience filled with wonder and fantasy.",
       links: [{ text: "A Brief History of The Nutcracker", url: "https://youtu.be/jcbEMpnr-og?feature=shared" }, {text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared"}] },
