@@ -74,11 +74,18 @@ interface DayContent {
     they mean that music by Frank Sinatra (he appears later in the calendar) was playing The “NYPD choir” means the New York City Police Department's 
     choir (actually the NYPD doesn’t have a choir; it only exists in the song haha)`, 
     links: [{ text: "Fairy Tale of New York Lyrics", url: "https://open.spotify.com/track/4soJpnUFA0SPs7XTi6QIVp?si=22a60cf4e3804473" },
-      {text: "Fairy Tale of New York Performance", url: "https://youtu.be/eeOVR09ohSU?feature=shared"},
-    ] },
+      {text: "Fairy Tale of New York Performance", url: "https://youtu.be/eeOVR09ohSU?feature=shared"},] },
 
-  { image: "assets/jackfrost2.jpg", message: `message`,
-    links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
+  { image: "assets/jackfrost2.jpg", 
+    message: `Jack Frost is a legendary character (not from any specific story) who brings the cold and 
+    frost of winter, giving people frostbite if they stay out too long. “The Christmas Song” mentions him
+     in the lyric “Jack Frost nipping at your nose.” “The Snow Queen” is a story written by Hans Christian Anderson
+      about a magical snow queen. She’s actually the antagonist in the seven-part story about good and evil. The links
+       above give a summary of the story, as well as some illustrations that later accompanied it.`,
+    links: [{ text: "Jack Frost Wikipedia", url: "https://en.wikipedia.org/wiki/Jack_Frost" },
+      { text: "The Christmas Song", url: "https://open.spotify.com/track/4PS1e8f2LvuTFgUs1Cn3ON?si=84794bf573f5444c" },
+      { text: "Summary of the Snow Queen", url: "https://interestingliterature.com/2020/03/snow-queen-fairy-tale-andersen-summary-analysis/" },
+      { text: "Vladislav Yerko Breathes New Life Into the Snow Queen", url: "https://www.kidsbookexplorer.com/the-snow-queen-hans-christian-andersen-vladislav-yerko/" }] },
 
   { image: "assets/clara.jpg", 
     message: `The Nutcracker is a classical ballet conceived and composed by Pyotr Ilyich Tchaikovsky in 1892. 
