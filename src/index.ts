@@ -59,7 +59,15 @@ interface DayContent {
       { text: "Oh, Christmas Tree", url: "https://open.spotify.com/track/2Tgnu0yfBZdOUshJHND7Mr?si=c74b40adfcc54a8c" },
       { text: "Rockin' Around the Christmas Tree by Brenda Lee", url: "https://open.spotify.com/track/7uwxlZu8ZWRFPNzbsPnNyZ?si=adaa5b2bc13a432b" },] },
   
-  { image: "assets/pullingsled.jpeg", message: "here is the message", links: [{ text: "Out in the snow", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/clara.jpg", 
+    message: `The Nutcracker is a classical ballet conceived and composed by Pyotr Ilyich Tchaikovsky in 1892. 
+    The play is set on Christmas Eve and revolves around a character Clara who goes on a magical adventure and 
+    falls in love with a boy who’s been transformed into a nutcracker doll by the evil mouse king. In the magical 
+    world that Clara travels to, she encounters all kinds of magic and dances, including the famous dance of the 
+    Sugar Plum Fairy. This play is really well-known, and I’ve probably gone to see it at least four times before 
+    (it’s especially nice with live music). We should go see it someday!`, 
+    links: [{ text: "The Nutcracker Synopsis", url: "https://www.bostonballet.org/stories/the-nutcracker-synopsis/" },
+      { text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared" },] },
   
   { image: "assets/santasleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
