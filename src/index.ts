@@ -94,8 +94,7 @@ interface DayContent {
     message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
      about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). `, 
     links: [{ text: "Candy Cane Lane by Sia", url: "https://open.spotify.com/track/02tDqMrg969BoG5s6TBnbh?si=88f52a33fdef49f2" },
-      { text: "How Candy Canes Are Made", url: "https://youtu.be/QBSrdw19k8M?feature=shared" }
-    ] },
+      { text: "How Candy Canes Are Made", url: "https://youtu.be/QBSrdw19k8M?feature=shared" }] },
 
   { image: "assets/mistletoe.jpeg", 
     message: `Mistletoe is a plant with white berries that people hang up around Christmas, and the custom is that
