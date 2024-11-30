@@ -16,10 +16,14 @@ interface DayContent {
       { text: "It's Beginning to Look a Lot Like Christmas", url: "https://open.spotify.com/track/0v2HESaEiiIu9q1cJi3wFn?si=b0adca4c7ce84a11" }] },
 
   { image: "assets/santahat.jpeg", 
-    message: `Santa Claus is a legendary figure known for bringing gifts to children on Christmas Eve. 
-    Dressed in a red suit with a white beard, he travels the world in a sleigh pulled by reindeer, 
-    delivering presents to homes. According to tradition, Santa rewards well-behaved children with 
-    gifts and spreads joy during the holiday season.`, 
+    message: `The first Christmas concept is Santa Claus (what would Christmas be without
+    him after all?). He’s the legendary figure who flies around the entire world on Christmas
+    Eve, giving presents to children around the globe. Legend has it that he keeps two lists;
+    the “naughty list” and the “nice list.” Those whose names are on the nice list receive gifts
+    for Christmas, but those who are on the naughty list only get a lump of coal. There are various
+    things you can do to land yourself on the naughty list, including (but not limited to) stealing
+    drinks from school restaurants, exercising morning yoga, and not reading books that your 
+    girlfriend gifted you for Christmas.`,
     links: [{ text: "How Coca-Cola Took Over Santa Claus", url: "https://youtu.be/xEbVqBVC4u8?feature=shared" },
       { text: "Twas the Night Before Christmas Poem", url: "https://www.poetryfoundation.org/poems/43171/a-visit-from-st-nicholas" },
       { text: "Santa Claus is Coming to Town", url: "https://open.spotify.com/track/6syO6UTl8QiiWADJy3Uy2d?si=a87fa2fd6be148ae" }] },
