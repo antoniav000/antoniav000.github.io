@@ -86,7 +86,28 @@ interface DayContent {
   { image: "assets/rudolph.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
   { image: "assets/blackbgcandycanes.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+
+  { image: "assets/mistletoe.jpeg", 
+    message: `Mistletoe is a plant with white berries that people hang up around Christmas, and the custom is that
+     if two people are standing below it, they’re supposed to kiss. ~ Here’s a history explaining the reason why we kiss 
+     under mistletoe, as well as two famous Christmas songs that include lyrics about it. The singers of “Merry Christmas”
+      (Ed Sheeran & Elton John) are both really famous singers, and I’m sure you’ve heard songs from them before (even if 
+      you didn’t realize it was them singing). A quick note for the second song: In the “Christmas in Killarney” song, “beau”
+      means “boyfriend.”`, 
+    links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" },
+      { text: "Merry Christmas by Ed Sheeran & Elton John", url: "https://youtu.be/Q_yuO8UNGmY?feature=shared" },
+      { text: "Christmas in Killarney", url: "https://open.spotify.com/track/4XKj7iRK8QstOH4sG67YJf?si=e9bdfee53e2d4232" },] },
   
+  { image: "assets/presentsleigh.jpeg", 
+    message: `The Twelve Days of Christmas is a Christmas season that celebrates the Nativity (the birth of Christ). 
+    It starts on Christmas Day, December 25th and lasts until January 5th. January 6th is Epiphany (or Three Kings Day), 
+    the day when the Three Wise Men come to bring gifts to children in Mexico. The Twelve Days of Christmas is a classic 
+    poem that many people sing around the holiday.`, 
+    links: [{ text: "The Twelve Days of Christmas Poem", url: "https://www.poetryfoundation.org/poems/42913/the-twelve-days-of-christmas" },
+      { text: "Twelve Days of Christmas by Bing Crosby", url: "https://open.spotify.com/track/0cAhE2iDJApegDnVRx6fCK?si=f700035963cd4680" },
+      { text: "The Office - 12 Days of Christmas Clip", url: "https://youtu.be/m29KmOSh0Mw?feature=shared" },
+      { text: "Best Christmas Ever - SNL", url: "https://youtu.be/4WvwX18oMR4?feature=shared" }] },
+
   { image: "assets/krampus.jpg", 
     message: `In the olden days, they used to tell ghost stories on Christmas Eve, so it’s only appropriate
      that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
@@ -97,10 +118,6 @@ interface DayContent {
      St. Nicholas (Santa) who terrorizes children around Christmas. `, 
     links: [{ text: "What's This? (from The Nightmare Before Christmas", url: "https://youtu.be/o36k8upu3Ks?feature=shared" },
       { text: "Krampus", url: "https://youtu.be/VbkGuCozc9M?feature=shared" },] },
-
-  { image: "assets/lamppost.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
-  
-  { image: "assets/stocking.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   
   { image: "assets/store.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/nutcracker.jpeg", message: "The Nutcracker is a holiday story and ballet, celebrated as a Christmas tradition. It follows the magical journey of a young girl, Clara, who receives a nutcracker doll on Christmas Eve and finds herself in a world of dancing sweets and a fierce battle with the Mouse King. Set to Tchaikovsky’s music, The Nutcracker brings to life characters like the Sugar Plum Fairy and the Nutcracker Prince, creating an experience filled with wonder and fantasy.",
@@ -108,7 +125,7 @@ interface DayContent {
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Sleigh Ride", url: "https://open.spotify.com/track/7fUYUcWy853HS8YJn0b3Sr?si=c322984b259b4225" },
       {text:"A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared"}] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
-  { image: "assets/achristmasstory.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
+  { image: "assets/youllshootyoureyeout.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
