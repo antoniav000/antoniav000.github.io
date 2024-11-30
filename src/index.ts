@@ -4,13 +4,16 @@ interface DayContent {
   links: { text: string; url: string }[];
 }
  const days: DayContent[] = [
-  // Populate with data for each day
-  { image: "assets/ohchristmastree.jpeg", 
-    message: `Christmas is a joyful holiday celebrated worldwide each December, commemorating the birth 
-    of Jesus Christ in Christian tradition. It is a time of togetherness, marked by festive decorations, 
-    gift-giving, and gatherings with loved ones. Many enjoy customs like decorating a tree, exchanging presents, 
-    and sharing holiday meals, all in the spirit of spreading warmth, generosity, and hope.`, 
-    links: [{ text: "It's Beginning to Look a Lot Like Christmas", url: "https://open.spotify.com/track/0v2HESaEiiIu9q1cJi3wFn?si=b0adca4c7ce84a11" }] },
+  { image: "assets/catslookingout.jpg", 
+    message: `Today is December 1st, so here are three songs welcoming the new month! 
+    The first one by Milet I hadn’t heard before, but I do like it. The second one I 
+    heard for the first time two years ago, and I thought it was a romantic song… after 
+    reading the lyrics and paying more attention to the video though, I think it might 
+    be a little darker than that haha.`, 
+    links: [{ text: "December by Milet", url: "https://open.spotify.com/track/6OTYbrTn8BUb1WViI9HaAS?si=0a5e0c3b2a98422f" },
+      { text: "This December by Ricky Montgomerry", url: "https://youtu.be/gzxk4KepBOc?feature=shared" },
+      { text: "This December Lyrics", url: "https://open.spotify.com/track/3gjRRs7gmh3Euynu1cau1d?si=d89b381661644200" },
+      { text: "It's Beginning to Look a Lot Like Christmas", url: "https://open.spotify.com/track/0v2HESaEiiIu9q1cJi3wFn?si=b0adca4c7ce84a11" }] },
 
   { image: "assets/santahat.jpeg", 
     message: `Santa Claus is a legendary figure known for bringing gifts to children on Christmas Eve. 
