@@ -118,6 +118,17 @@ interface DayContent {
       { text: "The Office - 12 Days of Christmas Clip", url: "https://youtu.be/m29KmOSh0Mw?feature=shared" },
       { text: "Best Christmas Ever - SNL", url: "https://youtu.be/4WvwX18oMR4?feature=shared" }] },
 
+  { image: "assets/fruitcake.jpeg", 
+    message: `The Grinch is a cartoon character from authors Dr. Suess’s “The Grinch” book, published in 1957. 
+    In his story, the Grinch is a mean hateful creature who despises Christmas. The village below where he lives 
+    is called Whoville, and it has many creatures who love and always celebrate Christmas. Since he hates the Whos, 
+    on Christmas Eve he decides to go from house to house to steal all of their gifts in decorations, thinking “haha! 
+    Imagine how rotten they will feel in the morning!” To his surprise, when they wake up, they still see Christmas 
+    carols and enjoy the holiday, and he realizes that the holiday sentiment is more than just the food and presents, 
+    and his heart grows three sizes. Because of this story, people sometimes still refer to a hateful person as a “grinch.”`,
+    links: [{ text: "How the Grinch Stole Christmas", url: "https://dai.ly/x3ie7xt" }, 
+      {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
+  
   { image: "assets/krampus.jpg", 
     message: `In the olden days, they used to tell ghost stories on Christmas Eve, so it’s only appropriate
      that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
@@ -128,17 +139,6 @@ interface DayContent {
      St. Nicholas (Santa) who terrorizes children around Christmas. `, 
     links: [{ text: "What's This? (from The Nightmare Before Christmas", url: "https://youtu.be/o36k8upu3Ks?feature=shared" },
       { text: "Krampus", url: "https://youtu.be/VbkGuCozc9M?feature=shared" },] },
-  
-  { image: "assets/seusstree.jpg", 
-    message: `The Grinch is a cartoon character from authors Dr. Suess’s “The Grinch” book, published in 1957. 
-    In his story, the Grinch is a mean hateful creature who despises Christmas. The village below where he lives 
-    is called Whoville, and it has many creatures who love and always celebrate Christmas. Since he hates the Whos, 
-    on Christmas Eve he decides to go from house to house to steal all of their gifts in decorations, thinking “haha! 
-    Imagine how rotten they will feel in the morning!” To his surprise, when they wake up, they still see Christmas 
-    carols and enjoy the holiday, and he realizes that the holiday sentiment is more than just the food and presents, 
-    and his heart grows three sizes. Because of this story, people sometimes still refer to a hateful person as a “grinch.”`,
-    links: [{ text: "How the Grinch Stole Christmas", url: "https://dai.ly/x3ie7xt" }, 
-      {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
 
   { image: "assets/stocking.jpeg", 
     message: `According to Christmas legend, if you hang your stockings or socks above the fireplace on Christmas Eve,
@@ -147,9 +147,9 @@ interface DayContent {
     links: [{ text: "The Legend of the Christmas Stocking", url: "https://www.smithsonianmag.com/arts-culture/the-legend-of-the-christmas-stocking-160854441/" },
       { text: "All My Bells are Ringing by Lenka", url: "https://open.spotify.com/track/4WrP4tyHau0Rq1RyHJZxqZ?si=2648fb526d2b4d8f" }] },
   
-  { image: "assets/mexicandance.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/wisemen.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
-  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/mexicandance.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/youllshootyoureyeout.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
