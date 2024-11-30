@@ -74,9 +74,9 @@ interface DayContent {
     links: [{ text: "Fairy Tale of New York Lyrics", url: "https://open.spotify.com/track/4soJpnUFA0SPs7XTi6QIVp?si=22a60cf4e3804473" },
       {text: "Fairy Tale of New York Performance", url: "https://youtu.be/eeOVR09ohSU?feature=shared"},
     ] },
-  
+
   { image: "assets/jackfrost2.jpg", message: `message`,
-      links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
+    links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" }] },
 
   { image: "assets/xmascarol.jpg", 
    message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
@@ -88,7 +88,7 @@ interface DayContent {
     happy to have survived the night and becomes a new man. The “Carol of the Bells” song is a really famous 
     Christmas carol about the arrival of Christmas and the Christmas bells ringing. :)`, 
     links: [{ text: "A Christmas Carol Summary", url: "https://www.sparknotes.com/lit/christmascarol/summary/" },
-    { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },    
+    { text: "Carol of the Bells", url: "https://open.spotify.com/track/25AtvmC59O7YhigsrxOme6?si=c7e9a689f3ee48c0" },] },   
   
   { image: "assets/blackbgcandycanes.jpg", 
     message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
@@ -117,7 +117,7 @@ interface DayContent {
       { text: "Twelve Days of Christmas by Bing Crosby", url: "https://open.spotify.com/track/0cAhE2iDJApegDnVRx6fCK?si=f700035963cd4680" },
       { text: "The Office - 12 Days of Christmas Clip", url: "https://youtu.be/m29KmOSh0Mw?feature=shared" },
       { text: "Best Christmas Ever - SNL", url: "https://youtu.be/4WvwX18oMR4?feature=shared" }] },
-
+  
   { image: "assets/fruitcake.jpeg", 
     message: `The Grinch is a cartoon character from authors Dr. Suess’s “The Grinch” book, published in 1957. 
     In his story, the Grinch is a mean hateful creature who despises Christmas. The village below where he lives 
@@ -128,7 +128,7 @@ interface DayContent {
     and his heart grows three sizes. Because of this story, people sometimes still refer to a hateful person as a “grinch.”`,
     links: [{ text: "How the Grinch Stole Christmas", url: "https://dai.ly/x3ie7xt" }, 
       {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
-  
+
   { image: "assets/krampus.jpg", 
     message: `In the olden days, they used to tell ghost stories on Christmas Eve, so it’s only appropriate
      that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
@@ -153,11 +153,18 @@ interface DayContent {
 
   { image: "assets/mexicandance.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
-  { image: "assets/greenhouse.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
+  { image: "assets/homeforchristmas.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
 
-  { image: "assets/littlehouses.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/greenhouse.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
-  { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/wintericeskating.jpg", 
+    message: `Here are three songs about the snowy winter. ~ The first is a cover that I’d never heard before, 
+    but I think it sounds nice. The second is from a famous Christmas movie featuring Bing Crosby, and the third 
+    is a classic Christmas song about welcoming the falling snow. `, 
+    links: [{ text: "Winter Wonderland", url: "https://open.spotify.com/track/7CeP2uqPli3AW6Fn6OF70L?si=781b2573cb0943ce" },
+      { text: "White Christmas by Bing Crosby", url: "https://open.spotify.com/track/3XsaSIPWvM61RIFfeb0BBR?si=9b01098775d34c17" },
+      { text: "Let it Snow! by Robert Goulet", url: "https://open.spotify.com/track/6dx8Z821RaAqjuoJafsM8X?si=b14690340e0c4afb" }
+    ] },
 
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
   { image: "assets/presentsleigh.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
