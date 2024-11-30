@@ -175,7 +175,13 @@ interface DayContent {
       { text: "The Music & Life of Juan Gabriel", url: "https://balletaz.org/your-guide-to-the-music-life-of-juan-gabriel/" },
     ] },
 
-  { image: "assets/homeforchristmas.jpg", message: "message", links: [{ text: "A Christmas Story - The Leg Lamp", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
+  { image: "assets/homeforchristmas.jpg", 
+    message: `For today, here’s one song about celebrating the holidays at home, followed by two clips. 
+    The first is a scene from the movie “A Christmas Story” in which the father wins an award for completing 
+    crossword puzzles in the newspaper. The second is an SNL clip about visiting your family for the holidays.`, 
+    links: [{ text: "(There's No Place Like) Home for the Holidays by Perry Como", url: "https://open.spotify.com/track/0ZamzoOYLzRxE3WuOb5J3r?si=d4b1d83718654d99" },
+      { text: "A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" },
+      { text: "Home for the Holidays - SNL", url: "https://youtu.be/VxVXYp2KIeE?feature=shared" },] },
 
   { image: "assets/greenhouse.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
