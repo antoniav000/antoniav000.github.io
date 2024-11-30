@@ -201,11 +201,11 @@ interface DayContent {
       { text: "Let it Snow! by Robert Goulet", url: "https://open.spotify.com/track/6dx8Z821RaAqjuoJafsM8X?si=b14690340e0c4afb" }
     ] },
 
-  { image: "assets/bowbells.jpg", 
+  { image: "assets/couple.jpeg", 
     message: "here is the message", 
     links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
-  { image: "assets/lamppost.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
+  { image: "assets/santasleigh.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
 
   { image: "assets/store.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
