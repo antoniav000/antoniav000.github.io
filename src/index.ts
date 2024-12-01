@@ -269,9 +269,6 @@ interface DayContent {
       button.addEventListener("click", () => openModal(day));
     }
 
-    //Previously just this:
-    //button.addEventListener("click", () => openModal(day));
-
     dayDiv.appendChild(button);
      calendar?.appendChild(dayDiv);
   });
