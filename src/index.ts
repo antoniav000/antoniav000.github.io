@@ -21,8 +21,7 @@ interface DayContent {
     Eve, giving presents to children around the globe. Legend has it that he keeps two lists;
     the “naughty list” and the “nice list.” Those whose names are on the nice list receive gifts
     for Christmas, but those who are on the naughty list only get a lump of coal. There are various
-    things you can do to land yourself on the naughty list, including sneaking drinks from school restaurants, 
-    exercising morning yoga, and not reading books that your girlfriend gifted you for Christmas.`,
+    things you can do to land yourself on the naughty list, including exercising morning yoga and not reading books that your girlfriend gifted you for Christmas.`,
     links: [{ text: "How Coca-Cola Took Over Santa Claus", url: "https://youtu.be/xEbVqBVC4u8?feature=shared" },
       { text: "Twas the Night Before Christmas Poem", url: "https://www.poetryfoundation.org/poems/43171/a-visit-from-st-nicholas" },
       { text: "Santa Claus is Coming to Town by Frank Sinatra", url: "https://open.spotify.com/track/6syO6UTl8QiiWADJy3Uy2d?si=a87fa2fd6be148ae" },
