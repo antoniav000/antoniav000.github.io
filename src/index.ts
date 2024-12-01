@@ -183,12 +183,11 @@ interface DayContent {
     ] },
 
   { image: "assets/homeforchristmas.jpg", 
-    message: `For today, here’s one song about celebrating the holidays at home, followed by two clips. 
-    The first is a scene from the movie “A Christmas Story” in which the father wins an award for completing 
-    crossword puzzles in the newspaper. The second is an SNL clip about visiting your family for the holidays.`, 
+    message: `For today, here’s one song about celebrating the holidays at home, and 
+    the second link is a scene from the movie “A Christmas Story” in which the father wins an award for completing 
+    crossword puzzles in the newspaper.`, 
     links: [{ text: "(There's No Place Like) Home for the Holidays by Perry Como", url: "https://open.spotify.com/track/0ZamzoOYLzRxE3WuOb5J3r?si=d4b1d83718654d99" },
-      { text: "A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" },
-      { text: "Home for the Holidays - SNL", url: "https://youtu.be/VxVXYp2KIeE?feature=shared" },] },
+      { text: "A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
 
   { image: "assets/greenhouse.jpg", 
     message: `Gingerbread houses and gingerbread men are another fun part of Christmas festivities, and they originated 
@@ -208,15 +207,17 @@ interface DayContent {
       { text: "Let it Snow! by Robert Goulet", url: "https://open.spotify.com/track/6dx8Z821RaAqjuoJafsM8X?si=b14690340e0c4afb" }
     ] },
 
-  { image: "assets/couple.jpeg", 
+  { image: "assets/santasleigh.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
+
+  { image: "assets/bluebells.jpg", 
     message: "here is the message", 
     links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
-  { image: "assets/santasleigh.jpeg", message: "here is the message", links: [{ text: "Luke 2", url: "https://tinyurl.com/5ctx6u3v" }] },
-
   { image: "assets/store.jpeg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
 
-  { image: "assets/maryandjoseph.jpg", message: "here is the message", links: [{ text: "Merry Christmas to all", url: "https://open.spotify.com/track/35MqcEIVZ7svbBpRt4N30g?si=e85bf43813564a7d" }] },
+  { image: "assets/maryandjoseph.jpg", 
+    message: "here is the message", 
+    links: [{ text: "What Child is This? by Bing Crosby", url: "https://open.spotify.com/track/6OJdXv1Q5OdLgYolFEunJ4?si=9343d037ddc7411a" }] },
 ];
  function createCalendar() {
   const calendar = document.getElementById("calendar");
