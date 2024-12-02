@@ -1,5 +1,6 @@
 "use strict";
 var _a;
+// array of day content interfaces
 const days = [
     { image: "assets/catslookingout.jpg",
         message: `Today is December 1st, so here are three songs welcoming the new month! The first one by Milet I hadn’t heard before, but I do 
@@ -213,12 +214,17 @@ const days = [
             { text: "What Child is This?", url: "https://open.spotify.com/track/6PtzDFf5LbDUqZdQKvx13U?si=c15de858715e43fe" }
         ] },
 ];
+/**
+   * This function creates the calendar by creating each day from the days array to add to the
+   * calendar (creates the dayDiv, adds the image, creates the button, adds it all to the calendar)
+   */
 function createCalendar() {
     const calendar = document.getElementById("calendar");
     if (!calendar)
         return;
     //Get current date
     const today = new Date();
+    // For each day, it create a div and add its image to that dayDiv
     days.forEach((day, index) => {
         const dayDiv = document.createElement("div");
         dayDiv.classList.add("calendar-day");
@@ -226,10 +232,14 @@ function createCalendar() {
         img.src = day.image;
         img.alt = `Day ${index + 1}`;
         dayDiv.appendChild(img);
+        //Create the button for the day
         const button = document.createElement("button");
         //Set the button text
         button.textContent = `Dec. ${index + 1}`;
-        const dayDate = new Date(today.getFullYear(), 11, index + 1); // December (month 11), index + 1
+        //Give each day a date by making it the current year, December, and the day's index
+        //If the day's date is less than or equal to the current date (today = new Date()),
+        //then it's locked. Otherwise, on click, it opens the day. 
+        const dayDate = new Date(today.getFullYear(), 11, index + 1); // December (month 11) since it starts at 0, index + 1
         if (today < dayDate) {
             button.textContent = "Locked";
             button.disabled = true;
@@ -237,10 +247,14 @@ function createCalendar() {
         else {
             button.addEventListener("click", () => openModal(day));
         }
+        // Adding the buttons and dayDivs to the calendar
         dayDiv.appendChild(button);
         calendar === null || calendar === void 0 ? void 0 : calendar.appendChild(dayDiv);
     });
 }
+/**
+    * This function opens the days' content.
+    */
 function openModal(day) {
     const modal = document.getElementById("modal");
     const dayTitle = document.getElementById("day-title");
