@@ -50,7 +50,7 @@ interface DayContent {
   { image: "assets/christmastree2.jpg", 
     message: `Christmas trees are a little self-explanatory, so I’ll just include the article on how they 
     became a tradition and two songs about them. I’m excited for the day that we’ll have a home where we 
-    can put one up together. You have a gift waiting for you in my locker. ~`, 
+    can put one up together haha. You have a gift waiting for you in my locker. ~`, 
     links: [{ text: "How Christmas Trees Became a Holiday Tradition", url: "https://time.com/5736523/history-of-christmas-trees/" },
       { text: "Oh, Christmas Tree", url: "https://open.spotify.com/track/2Tgnu0yfBZdOUshJHND7Mr?si=c74b40adfcc54a8c" },
       { text: "Rockin' Around the Christmas Tree by Brenda Lee", url: "https://open.spotify.com/track/7uwxlZu8ZWRFPNzbsPnNyZ?si=adaa5b2bc13a432b" },] },
