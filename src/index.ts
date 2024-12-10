@@ -100,7 +100,8 @@ interface DayContent {
   
   { image: "assets/blackbgcandycanes.jpg", 
     message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
-     about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). `, 
+     about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). 
+     There's another gift waiting for you in my locker. ~`, 
     links: [{ text: "Candy Cane Lane by Sia", url: "https://open.spotify.com/track/02tDqMrg969BoG5s6TBnbh?si=88f52a33fdef49f2" },
       { text: "How Candy Canes Are Made", url: "https://youtu.be/QBSrdw19k8M?feature=shared" }] },
 
@@ -144,7 +145,7 @@ interface DayContent {
   { image: "assets/stocking.jpeg", 
     message: `According to Christmas legend, if you hang your stockings or socks above the fireplace on Christmas Eve,
     when you wake up on Christmas morning, they will be full of treats. The first link here talks about how this legend
-    came to be, and the second one is another nice Christmas song. You have yet another gift waiting for you in my locker. ~`, 
+    came to be, and the second one is another nice Christmas song. You have yet another gift waiting for you in my locker. ;)`, 
     links: [{ text: "The Legend of the Christmas Stocking", url: "https://www.smithsonianmag.com/arts-culture/the-legend-of-the-christmas-stocking-160854441/" },
       { text: "All My Bells are Ringing by Lenka", url: "https://open.spotify.com/track/4WrP4tyHau0Rq1RyHJZxqZ?si=2648fb526d2b4d8f" }] },
   
@@ -189,7 +190,7 @@ interface DayContent {
   { image: "assets/greenhouse.jpg", 
     message: `Gingerbread houses and gingerbread men are another fun part of Christmas festivities, and they originated 
     in part from the witch’s candy house in the German fairytale of Hansel and Gretel. The second and third links here are two of 
-    the most popular Christmas songs of all time haha. You have another gift waiting for you in the locker haha. ~`, 
+    the most popular Christmas songs of all time haha. You have a final gift waiting for you in the locker haha. ~`, 
     links: [{ text: "A Brief History of the Gingerbread House", url: "https://www.theguardian.com/travel/2018/dec/22/a-brief-history-of-the-gingerbread-house" },
       { text: "All I Want For Christmas is You by Mariah Carey", url: "https://youtu.be/yXQViqx6GMY?feature=shared" },
       { text: "Last Christmas by Wham!", url: "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78?si=c46635a1e25d4798" },
