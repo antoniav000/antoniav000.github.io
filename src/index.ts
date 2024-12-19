@@ -190,7 +190,7 @@ interface DayContent {
   { image: "assets/greenhouse.jpg", 
     message: `Gingerbread houses and gingerbread men are another fun part of Christmas festivities, and they originated 
     in part from the witch’s candy house in the German fairytale of Hansel and Gretel. The second and third links here are two of 
-    the most popular Christmas songs of all time haha. You have a final gift waiting for you in the locker haha. ~`, 
+    the most popular Christmas songs of all time haha. You have a final gift today, but I'll give you this one in person. ~`, 
     links: [{ text: "A Brief History of the Gingerbread House", url: "https://www.theguardian.com/travel/2018/dec/22/a-brief-history-of-the-gingerbread-house" },
       { text: "All I Want For Christmas is You by Mariah Carey", url: "https://youtu.be/yXQViqx6GMY?feature=shared" },
       { text: "Last Christmas by Wham!", url: "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78?si=c46635a1e25d4798" },
