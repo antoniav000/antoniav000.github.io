@@ -3,18 +3,16 @@ interface DayContent {
   message: string;
   links: { text: string; url: string }[];
 }
- // array of day content interfaces
+ // Array of day content interfaces
  const days: DayContent[] = [
   { image: "assets/catslookingout.jpg", 
     message: `Today is December 1st, so here are three songs welcoming the new month! The first one by Milet I hadn’t heard before, but I do 
-    like it. 
-    
-    The second one I heard for the first time two years ago, and I thought it was a romantic song… after reading the lyrics and 
+    like it. The second one I heard for the first time two years ago, and I thought it was a romantic song… after reading the lyrics and 
     paying more attention to the video though, I think it might be a little darker than that haha.`, 
     links: [{ text: "December by Milet", url: "https://open.spotify.com/track/6OTYbrTn8BUb1WViI9HaAS?si=0a5e0c3b2a98422f" },
-      { text: "This December by Ricky Montgomerry", url: "https://youtu.be/gzxk4KepBOc?feature=shared" },
-      { text: "This December Lyrics", url: "https://open.spotify.com/track/3gjRRs7gmh3Euynu1cau1d?si=d89b381661644200" },
-      { text: "It's Beginning to Look a Lot Like Christmas", url: "https://open.spotify.com/track/0v2HESaEiiIu9q1cJi3wFn?si=b0adca4c7ce84a11" }] },
+    { text: "This December by Ricky Montgomerry", url: "https://youtu.be/gzxk4KepBOc?feature=shared" },
+    { text: "This December Lyrics", url: "https://open.spotify.com/track/3gjRRs7gmh3Euynu1cau1d?si=d89b381661644200" },
+    { text: "It's Beginning to Look a Lot Like Christmas", url: "https://open.spotify.com/track/0v2HESaEiiIu9q1cJi3wFn?si=b0adca4c7ce84a11" }] },
 
   { image: "assets/santahat.jpeg", 
     message: `The first Christmas concept is Santa Claus (what would Christmas be without
@@ -25,9 +23,9 @@ interface DayContent {
     things you can do to land yourself on the naughty list, including exercising morning yoga and not reading books that your
     lovely girlfriend gifted you for Christmas.`,
     links: [{ text: "How Coca-Cola Took Over Santa Claus", url: "https://youtu.be/xEbVqBVC4u8?feature=shared" },
-      { text: "Twas the Night Before Christmas Poem", url: "https://www.poetryfoundation.org/poems/43171/a-visit-from-st-nicholas" },
-      { text: "Santa Claus is Coming to Town by Frank Sinatra", url: "https://open.spotify.com/track/6syO6UTl8QiiWADJy3Uy2d?si=a87fa2fd6be148ae" },
-      { text: "Must Be Santa by Bob Dylan", url: "https://youtu.be/a8qE6WQmNus?feature=shared"}] },
+    { text: "Twas the Night Before Christmas Poem", url: "https://www.poetryfoundation.org/poems/43171/a-visit-from-st-nicholas" },
+    { text: "Santa Claus is Coming to Town by Frank Sinatra", url: "https://open.spotify.com/track/6syO6UTl8QiiWADJy3Uy2d?si=a87fa2fd6be148ae" },
+    { text: "Must Be Santa by Bob Dylan", url: "https://youtu.be/a8qE6WQmNus?feature=shared"}] },
 
   { image: "assets/snowman.jpg", message: `Snowmen are a big part of winter, and so of course there are
     a lot of Christmas songs and stories about them. “Frosty the Snowman” is a story about a snowman who 
@@ -52,8 +50,8 @@ interface DayContent {
     became a tradition and two songs about them. I’m excited for the day that we’ll have a home where we 
     can put one up together haha. You have a gift waiting for you in my locker. ~`, 
     links: [{ text: "How Christmas Trees Became a Holiday Tradition", url: "https://time.com/5736523/history-of-christmas-trees/" },
-      { text: "Oh, Christmas Tree", url: "https://open.spotify.com/track/2Tgnu0yfBZdOUshJHND7Mr?si=c74b40adfcc54a8c" },
-      { text: "Rockin' Around the Christmas Tree by Brenda Lee", url: "https://open.spotify.com/track/7uwxlZu8ZWRFPNzbsPnNyZ?si=adaa5b2bc13a432b" },] },
+    { text: "Oh, Christmas Tree", url: "https://open.spotify.com/track/2Tgnu0yfBZdOUshJHND7Mr?si=c74b40adfcc54a8c" },
+    { text: "Rockin' Around the Christmas Tree by Brenda Lee", url: "https://open.spotify.com/track/7uwxlZu8ZWRFPNzbsPnNyZ?si=adaa5b2bc13a432b" },] },
 
   { image: "assets/xmascarol.jpg", 
    message: `A Christmas Carol is a famous book written by Charles Dickens, a famous English
@@ -75,7 +73,7 @@ interface DayContent {
     they mean that music by Frank Sinatra (he sings many of the songs in this calendar) was playing. The “NYPD choir” means the New York City Police Department's 
     choir (actually the NYPD doesn’t have a choir; it only exists in the song haha).`, 
     links: [{ text: "Fairy Tale of New York Lyrics", url: "https://open.spotify.com/track/4soJpnUFA0SPs7XTi6QIVp?si=22a60cf4e3804473" },
-      {text: "Fairy Tale of New York Performance", url: "https://youtu.be/eeOVR09ohSU?feature=shared"},] },
+    {text: "Fairy Tale of New York Performance", url: "https://youtu.be/eeOVR09ohSU?feature=shared"},] },
 
   { image: "assets/jackfrost2.jpg", 
     message: `Jack Frost is a legendary character (not from any specific story) who brings the cold and 
@@ -84,9 +82,9 @@ interface DayContent {
       about a magical snow queen. She’s actually the antagonist in the seven-part story about good and evil. The items
        below give a summary of the story, as well as some illustrations that later accompanied it.`,
     links: [{ text: "Jack Frost Wikipedia", url: "https://en.wikipedia.org/wiki/Jack_Frost" },
-      { text: "The Christmas Song", url: "https://open.spotify.com/track/4PS1e8f2LvuTFgUs1Cn3ON?si=84794bf573f5444c" },
-      { text: "Summary of the Snow Queen", url: "https://interestingliterature.com/2020/03/snow-queen-fairy-tale-andersen-summary-analysis/" },
-      { text: "Vladislav Yerko Breathes New Life Into the Snow Queen", url: "https://www.kidsbookexplorer.com/the-snow-queen-hans-christian-andersen-vladislav-yerko/" }] },
+    { text: "The Christmas Song", url: "https://open.spotify.com/track/4PS1e8f2LvuTFgUs1Cn3ON?si=84794bf573f5444c" },
+    { text: "Summary of the Snow Queen", url: "https://interestingliterature.com/2020/03/snow-queen-fairy-tale-andersen-summary-analysis/" },
+    { text: "Vladislav Yerko Breathes New Life Into the Snow Queen", url: "https://www.kidsbookexplorer.com/the-snow-queen-hans-christian-andersen-vladislav-yerko/" }] },
 
   { image: "assets/clara.jpg", 
     message: `The Nutcracker is a classical ballet conceived and composed by Pyotr Ilyich Tchaikovsky in 1892. 
@@ -96,23 +94,23 @@ interface DayContent {
     Sugar Plum Fairy. This play is really well-known, and I’ve probably gone to see it at least four times before 
     (it’s especially nice with live music). We should go see it someday!`, 
     links: [{ text: "The Nutcracker Synopsis", url: "https://www.bostonballet.org/stories/the-nutcracker-synopsis/" },
-      { text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared" },] },  
+    { text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared" },] },  
   
   { image: "assets/blackbgcandycanes.jpg", 
     message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
-     about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). 
-     There's another gift waiting for you in my locker. ~`, 
+    about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). 
+    There's another gift waiting for you in my locker. ~`, 
     links: [{ text: "Candy Cane Lane by Sia", url: "https://open.spotify.com/track/02tDqMrg969BoG5s6TBnbh?si=88f52a33fdef49f2" },
-      { text: "How Candy Canes Are Made", url: "https://youtu.be/QBSrdw19k8M?feature=shared" }] },
+    { text: "How Candy Canes Are Made", url: "https://youtu.be/QBSrdw19k8M?feature=shared" }] },
 
   { image: "assets/mistletoe.jpeg", 
     message: `Mistletoe is a plant with white berries that people hang up around Christmas, and the custom is that
-     if two people are standing below it, they’re supposed to kiss. ~ Here’s a history explaining the reason why we kiss 
-     under mistletoe, as well as two famous Christmas songs that include lyrics about it. 
-     In the “Christmas in Killarney” song, “beau” means “boyfriend.”`, 
+    if two people are standing below it, they’re supposed to kiss. ~ Here’s a history explaining the reason why we kiss 
+    under mistletoe, as well as two famous Christmas songs that include lyrics about it. 
+    In the “Christmas in Killarney” song, “beau” means “boyfriend.”`, 
     links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" },
-      { text: "Merry Christmas by Ed Sheeran & Elton John", url: "https://youtu.be/Q_yuO8UNGmY?feature=shared" },
-      { text: "Christmas in Killarney", url: "https://open.spotify.com/track/4XKj7iRK8QstOH4sG67YJf?si=e9bdfee53e2d4232" },] },
+    { text: "Merry Christmas by Ed Sheeran & Elton John", url: "https://youtu.be/Q_yuO8UNGmY?feature=shared" },
+    { text: "Christmas in Killarney", url: "https://open.spotify.com/track/4XKj7iRK8QstOH4sG67YJf?si=e9bdfee53e2d4232" },] },
   
   { image: "assets/presentsleigh.jpeg", 
     message: `The Twelve Days of Christmas celebrates the Nativity (the birth of Christ). 
@@ -120,42 +118,42 @@ interface DayContent {
     the day when the Three Wise Men come to bring gifts to children in Mexico. The Twelve Days of Christmas is a classic 
     poem that many people sing around the holiday.`, 
     links: [{ text: "The Twelve Days of Christmas Poem", url: "https://www.poetryfoundation.org/poems/42913/the-twelve-days-of-christmas" },
-      { text: "Twelve Days of Christmas by Bing Crosby", url: "https://open.spotify.com/track/0cAhE2iDJApegDnVRx6fCK?si=f700035963cd4680" },
-      { text: "The Office - 12 Days of Christmas Clip", url: "https://youtu.be/m29KmOSh0Mw?feature=shared" }] },
+    { text: "Twelve Days of Christmas by Bing Crosby", url: "https://open.spotify.com/track/0cAhE2iDJApegDnVRx6fCK?si=f700035963cd4680" },
+    { text: "The Office - 12 Days of Christmas Clip", url: "https://youtu.be/m29KmOSh0Mw?feature=shared" }] },
   
   { image: "assets/peanutsputtinguptree.jpg", 
     message: `“Peanuts” is an American comic strip that ran from 1950 to 2000, with various re-runs after. You may
-     have heard of it before, but if not, you’ve at least certainly seen some of the characters from it (Snoopy!). 
-     There are short films from the cartoon from various holidays, including Valentine’s Day, Halloween, Thanksgiving, 
-     and of course, Christmas. :)`, 
+    have heard of it before, but if not, you’ve at least certainly seen some of the characters from it (Snoopy!). 
+    There are short films from the cartoon from various holidays, including Valentine’s Day, Halloween, Thanksgiving, 
+    and of course, Christmas. :)`, 
     links: [{ text: "Charlie Brown Christmas", url: "https://youtu.be/LCz4FNe_S1U?feature=shared" },
-      { text: "Celebrating 70 Years of Peanuts", url: "https://schulzmuseum.org/70-years-of-peanuts-online/" },] },
+    { text: "Celebrating 70 Years of Peanuts", url: "https://schulzmuseum.org/70-years-of-peanuts-online/" },] },
 
   { image: "assets/krampus.jpg", 
     message: `In the olden days, they used to tell ghost stories on Christmas Eve, so it’s only appropriate
-     that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
-     Christmas” (that movie that I told you about where the Halloween monsters take over Christmas). Jack Skellington 
-     accidentally travels from Halloween Land to Christmas Land and discovers the wonder of the holiday. He later 
-     decides that the Halloween creatures should take over Christmas, so he kidnaps Santa and tries to take his place haha.
-     Also, a little note from the song: “daffy” means “crazy.” The second video is about Krampus, the evil companion of
-     St. Nicholas (Santa) who terrorizes children around Christmas. `, 
+    that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
+    Christmas” (that movie that I told you about where the Halloween monsters take over Christmas). Jack Skellington 
+    accidentally travels from Halloween Land to Christmas Land and discovers the wonder of the holiday. He later 
+    decides that the Halloween creatures should take over Christmas, so he kidnaps Santa and tries to take his place haha.
+    Also, a little note from the song: “daffy” means “crazy.” The second video is about Krampus, the evil companion of
+    St. Nicholas (Santa) who terrorizes children around Christmas. `, 
     links: [{ text: "What's This? (from The Nightmare Before Christmas", url: "https://youtu.be/o36k8upu3Ks?feature=shared" },
-      { text: "Krampus", url: "https://youtu.be/VbkGuCozc9M?feature=shared" },] },
+    { text: "Krampus", url: "https://youtu.be/VbkGuCozc9M?feature=shared" },] },
 
   { image: "assets/stocking.jpeg", 
     message: `According to Christmas legend, if you hang your stockings or socks above the fireplace on Christmas Eve,
     when you wake up on Christmas morning, they will be full of treats. The first link here talks about how this legend
     came to be, and the second one is another nice Christmas song. You have yet another gift waiting for you in my locker. ;)`, 
     links: [{ text: "The Legend of the Christmas Stocking", url: "https://www.smithsonianmag.com/arts-culture/the-legend-of-the-christmas-stocking-160854441/" },
-      { text: "All My Bells are Ringing by Lenka", url: "https://open.spotify.com/track/4WrP4tyHau0Rq1RyHJZxqZ?si=2648fb526d2b4d8f" }] },
+    { text: "All My Bells are Ringing by Lenka", url: "https://open.spotify.com/track/4WrP4tyHau0Rq1RyHJZxqZ?si=2648fb526d2b4d8f" }] },
   
   { image: "assets/wisemen.jpg", 
     message: `Las Posadas is a Catholic celebration lasting for nine days (from December 16th to December 24th). 
     When I attended these as a kid, there was a half hour of praying the rosary first, which was followed by 
     singing (most people held candles for that part), then treat bags given by the host, and finally the piñata.`, 
     links: [{ text: "El Pueblo de Las Posadas", url: "https://youtu.be/B3RqafZM9lM?feature=shared" },
-      { text: "Las Posadas: A Mexican Christmas Tradition", url: "https://www.franciscanmedia.org/st-anthony-messenger/las-posadas-a-mexican-christmas-tradition/" },
-      { text: "Las Posadas Mexicanos", url: "https://youtu.be/hx1_CKrWrjo?feature=shared" },] },
+    { text: "Las Posadas: A Mexican Christmas Tradition", url: "https://www.franciscanmedia.org/st-anthony-messenger/las-posadas-a-mexican-christmas-tradition/" },
+    { text: "Las Posadas Mexicanos", url: "https://youtu.be/hx1_CKrWrjo?feature=shared" },] },
   
   { image: "assets/fruitcake.jpeg", 
     message: `You don't have to watch the entire video, but the Grinch is a cartoon character from Dr. Suess’s “The Grinch” book, published in 1957. 
@@ -167,17 +165,17 @@ interface DayContent {
     carols and enjoy the holiday, and he realizes that the holiday sentiment isn't just about the food and presents. 
     After his epiphany, his heart grows three sizes bigger. Because of this story, people sometimes still refer to a hateful person as a “grinch.”`,
     links: [{ text: "How the Grinch Stole Christmas", url: "https://dai.ly/x3ie7xt" }, 
-      {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
+    {text: "Grinch Wikipedia", url: "https://en.wikipedia.org/wiki/Grinch"}] },
 
   { image: "assets/mexicandance.jpg", 
     message: `Christmas in Mexico involves a lot of singing, so here are three Latin Christmas songs. The third singer,
      Juan Gabriel (also known as "Juanga"), is probably one of the most famous Mexican singers from the 70s. I really like 
      this song because it’s about falling in love on December 24th haha. ~`, 
     links: [{ text: "Feliz Navidad by José Feliciano", url: "https://open.spotify.com/track/0oPdaY4dXtc3ZsaG17V972?si=7daa1733f5ae4851" },
-      { text: "El Año Viejo by Tony Camargo", url: "https://open.spotify.com/track/6yAXIKVQ7CJnjYoJcZCIzO?si=8c90dfb160ca4284" },
-      { text: "24 de Diciembre by Juan Gabriel", url: "https://open.spotify.com/track/2wGxUqy8G9WJto1nnD8IGu?si=2120c15723c0461d" },
-      { text: "24 de Diciembre Lyrics Translation", url: "https://lyricstranslate.com/en/24-de-diciembre-24th-december.html" },
-      { text: "The Music & Life of Juan Gabriel", url: "https://balletaz.org/your-guide-to-the-music-life-of-juan-gabriel/" },
+    { text: "El Año Viejo by Tony Camargo", url: "https://open.spotify.com/track/6yAXIKVQ7CJnjYoJcZCIzO?si=8c90dfb160ca4284" },
+    { text: "24 de Diciembre by Juan Gabriel", url: "https://open.spotify.com/track/2wGxUqy8G9WJto1nnD8IGu?si=2120c15723c0461d" },
+    { text: "24 de Diciembre Lyrics Translation", url: "https://lyricstranslate.com/en/24-de-diciembre-24th-december.html" },
+    { text: "The Music & Life of Juan Gabriel", url: "https://balletaz.org/your-guide-to-the-music-life-of-juan-gabriel/" },
     ] },
 
   { image: "assets/homeforchristmas.jpg", 
@@ -185,15 +183,15 @@ interface DayContent {
     the second link is a scene from the movie A Christmas Story in which the father wins an award for completing 
     crossword puzzles in the newspaper.`, 
     links: [{ text: "(There's No Place Like) Home for the Holidays by Perry Como", url: "https://open.spotify.com/track/0ZamzoOYLzRxE3WuOb5J3r?si=d4b1d83718654d99" },
-      { text: "A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
+    { text: "A Christmas Story - The Leg Lamp is Delivered", url: "https://youtu.be/F-Vz67p5kLQ?feature=shared" }] },
 
   { image: "assets/greenhouse.jpg", 
     message: `Gingerbread houses and gingerbread men are another fun part of Christmas festivities, and they originated 
     in part from the witch’s candy house in the German fairytale of Hansel and Gretel. The second and third links here are two of 
     the most popular Christmas songs of all time haha. You have a final gift today, but I'll give you this one in person. ~`, 
     links: [{ text: "A Brief History of the Gingerbread House", url: "https://www.theguardian.com/travel/2018/dec/22/a-brief-history-of-the-gingerbread-house" },
-      { text: "All I Want For Christmas is You by Mariah Carey", url: "https://youtu.be/yXQViqx6GMY?feature=shared" },
-      { text: "Last Christmas by Wham!", url: "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78?si=c46635a1e25d4798" },
+    { text: "All I Want For Christmas is You by Mariah Carey", url: "https://youtu.be/yXQViqx6GMY?feature=shared" },
+    { text: "Last Christmas by Wham!", url: "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78?si=c46635a1e25d4798" },
     ] },
 
   { image: "assets/wintericeskating.jpg", 
@@ -201,8 +199,8 @@ interface DayContent {
     but I think it sounds nice. The second is from the movie White Christmas, and the third 
     is a classic Christmas song about welcoming the falling snow. `, 
     links: [{ text: "Winter Wonderland", url: "https://open.spotify.com/track/7CeP2uqPli3AW6Fn6OF70L?si=781b2573cb0943ce" },
-      { text: "White Christmas by Bing Crosby", url: "https://open.spotify.com/track/3XsaSIPWvM61RIFfeb0BBR?si=9b01098775d34c17" },
-      { text: "Let it Snow! by Robert Goulet", url: "https://open.spotify.com/track/6dx8Z821RaAqjuoJafsM8X?si=b14690340e0c4afb" }
+    { text: "White Christmas by Bing Crosby", url: "https://open.spotify.com/track/3XsaSIPWvM61RIFfeb0BBR?si=9b01098775d34c17" },
+    { text: "Let it Snow! by Robert Goulet", url: "https://open.spotify.com/track/6dx8Z821RaAqjuoJafsM8X?si=b14690340e0c4afb" }
     ] },
 
   { image: "assets/santasleigh.jpeg", 
@@ -213,11 +211,11 @@ interface DayContent {
     at a boarding school and is responsible for taking care of a stubborn student (who had to stay there alone over 
     break haha.)`, 
     links: [{ text: "Baby, It's Cold Outside (from Neptune's Daughter)", url: "https://youtu.be/7MFJ7ie_yGU?feature=shared" },
-      { text: "Merry Little Christmas (from Meet Me in St. Louis)", url: "https://youtu.be/CreWsnhQwzY?feature=shared" },
-      { text: "Snow (from White Christmas)", url: "https://youtu.be/G47k6qSKgPw?feature=shared" },
-      { text: "Sisters (from White Christmas)", url: "https://youtu.be/PG7x8HWbDzU?feature=shared" },
-      { text: "'Sisters' (from White Christmas)", url: "https://youtu.be/DDyybi7t634?feature=shared" },
-      { text: "The Holdovers Scene", url: "https://youtu.be/ME7ZRs5kQxM?feature=shared" },
+    { text: "Merry Little Christmas (from Meet Me in St. Louis)", url: "https://youtu.be/CreWsnhQwzY?feature=shared" },
+    { text: "Snow (from White Christmas)", url: "https://youtu.be/G47k6qSKgPw?feature=shared" },
+    { text: "Sisters (from White Christmas)", url: "https://youtu.be/PG7x8HWbDzU?feature=shared" },
+    { text: "'Sisters' (from White Christmas)", url: "https://youtu.be/DDyybi7t634?feature=shared" },
+    { text: "The Holdovers Scene", url: "https://youtu.be/ME7ZRs5kQxM?feature=shared" },
     ] },
 
   { image: "assets/bluebells.jpg", 
@@ -225,9 +223,9 @@ interface DayContent {
     symbolism of celebration, and their association with Santa’s sleigh (the legend that you can hear his sleigh
     bells ringing as he gets nearer). So here are four songs that reference Christmas bells!`, 
     links: [{ text: "Jingle Bells by Frank Sinatra", url: "https://open.spotify.com/track/4KV9bM7a1KDc7b7OakFZic?si=66701ceb1faa43bc" },
-      { text: "Silver Bells by Bing Crosby", url: "https://open.spotify.com/track/6ukZegLjDkrDQWFYsQ2ODt?si=bdb17ad5e63a426a" },
-      { text: "Jingle Bell Rock by Bobby Helms", url: "https://open.spotify.com/track/7vQbuQcyTflfCIOu3Uzzya?si=835a85b641424282" },
-      { text: "Sleigh Ride by the Ronettes", url: "https://open.spotify.com/track/5ASM6Qjiav2xPe7gRkQMsQ?si=d74154d4ffd34475" },
+    { text: "Silver Bells by Bing Crosby", url: "https://open.spotify.com/track/6ukZegLjDkrDQWFYsQ2ODt?si=bdb17ad5e63a426a" },
+    { text: "Jingle Bell Rock by Bobby Helms", url: "https://open.spotify.com/track/7vQbuQcyTflfCIOu3Uzzya?si=835a85b641424282" },
+    { text: "Sleigh Ride by the Ronettes", url: "https://open.spotify.com/track/5ASM6Qjiav2xPe7gRkQMsQ?si=d74154d4ffd34475" },
     ] },
 
   { image: "assets/store.jpeg", 
@@ -239,8 +237,8 @@ interface DayContent {
     message: `It’s finally Christmas Day now! Since this is the day most people would celebrate Christmas as a religious holiday, 
     going to church and listening to choir music, the three items for today are related to the original Christmas story. `, 
     links: [{ text: "Luke 2 Reading", url: "https://www.biblegateway.com/passage/?search=Luke%202&version=NIV&interface=print" },
-      {text: "The First Noel by Frank Sinatra", url: "https://open.spotify.com/track/4WW2Bdai1qzTnNkWNJCGNg?si=fe23471d95444014"},
-      {text: "What Child is This?", url: "https://open.spotify.com/track/6PtzDFf5LbDUqZdQKvx13U?si=c15de858715e43fe"}
+    {text: "The First Noel by Frank Sinatra", url: "https://open.spotify.com/track/4WW2Bdai1qzTnNkWNJCGNg?si=fe23471d95444014"},
+    {text: "What Child is This?", url: "https://open.spotify.com/track/6PtzDFf5LbDUqZdQKvx13U?si=c15de858715e43fe"}
     ] },
 ];
   /**
@@ -309,34 +307,46 @@ interface DayContent {
 }
  createCalendar();
 
-
+/* Selects the modal element using its ID
+Sets its display style to "none", hiding it
+*/
 function closeModal() {
   const modal = document.getElementById("modal") as HTMLDivElement;
   modal.style.display = "none";
 }
- document.getElementById("close")?.addEventListener("click", closeModal);
+
+/* 
+- Selects the close button element with teh ID "close"
+- Adds a click event listener that triggers the closeModal() function
+- Listens for clicks anywhere on the window
+- If the click target is the modal itself (outside the content area), it calls closeModal() to hide the modal
+*/
+document.getElementById("close")?.addEventListener("click", closeModal);
 window.addEventListener("click", (event) => {
   const modal = document.getElementById("modal");
   if (event.target === modal) closeModal();
 });
 
-// Select envelope image and modal elements
+// The clickable envelope image
 const envelope = document.getElementById("envelope") as HTMLImageElement;
+// The modal associated with the envelope
 const envelopeModal = document.getElementById("envelope-modal") as HTMLDivElement;
+// The close button inside the envelope modal
 const envelopeClose = document.getElementById("envelope-close") as HTMLSpanElement;
 
-// Show modal when envelope is clicked
+// Show modal when envelope is clicked by changing display to "flex"
 envelope.addEventListener("click", () => {
   envelopeModal.style.display = "flex";
 });
 
-// Close modal when 'x' button is clicked
+// Close modal when 'x' button is clicked by changing display to "none"
 envelopeClose.addEventListener("click", () => {
   envelopeModal.style.display = "none";
 });
 
 // Close modal when clicking outside of it
 window.addEventListener("click", (event) => {
+  // envelopeModal is the background overlay around the modal content
   if (event.target === envelopeModal) {
     envelopeModal.style.display = "none";
   }

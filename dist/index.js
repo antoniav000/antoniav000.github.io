@@ -1,12 +1,10 @@
 "use strict";
 var _a;
-// array of day content interfaces
+// Array of day content interfaces
 const days = [
     { image: "assets/catslookingout.jpg",
         message: `Today is December 1st, so here are three songs welcoming the new month! The first one by Milet I hadn’t heard before, but I do 
-    like it. 
-    
-    The second one I heard for the first time two years ago, and I thought it was a romantic song… after reading the lyrics and 
+    like it. The second one I heard for the first time two years ago, and I thought it was a romantic song… after reading the lyrics and 
     paying more attention to the video though, I think it might be a little darker than that haha.`,
         links: [{ text: "December by Milet", url: "https://open.spotify.com/track/6OTYbrTn8BUb1WViI9HaAS?si=0a5e0c3b2a98422f" },
             { text: "This December by Ricky Montgomerry", url: "https://youtu.be/gzxk4KepBOc?feature=shared" },
@@ -88,15 +86,15 @@ const days = [
             { text: "Dance of the Sugar Plum Fairy", url: "https://youtu.be/zV1qLYukTH8?feature=shared" },] },
     { image: "assets/blackbgcandycanes.jpg",
         message: `Candy cane peppermint candies are a really popular Christmas treat, so the first link here is a song
-     about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). 
-     There's another gift waiting for you in my locker. ~`,
+    about them haha, and the second is a video about how they’re made (it’s actually quite satisfying). 
+    There's another gift waiting for you in my locker. ~`,
         links: [{ text: "Candy Cane Lane by Sia", url: "https://open.spotify.com/track/02tDqMrg969BoG5s6TBnbh?si=88f52a33fdef49f2" },
             { text: "How Candy Canes Are Made", url: "https://youtu.be/QBSrdw19k8M?feature=shared" }] },
     { image: "assets/mistletoe.jpeg",
         message: `Mistletoe is a plant with white berries that people hang up around Christmas, and the custom is that
-     if two people are standing below it, they’re supposed to kiss. ~ Here’s a history explaining the reason why we kiss 
-     under mistletoe, as well as two famous Christmas songs that include lyrics about it. 
-     In the “Christmas in Killarney” song, “beau” means “boyfriend.”`,
+    if two people are standing below it, they’re supposed to kiss. ~ Here’s a history explaining the reason why we kiss 
+    under mistletoe, as well as two famous Christmas songs that include lyrics about it. 
+    In the “Christmas in Killarney” song, “beau” means “boyfriend.”`,
         links: [{ text: "Why do we kiss under mistletoe?", url: "https://youtu.be/QtJqBiF6EF0?feature=shared" },
             { text: "Merry Christmas by Ed Sheeran & Elton John", url: "https://youtu.be/Q_yuO8UNGmY?feature=shared" },
             { text: "Christmas in Killarney", url: "https://open.spotify.com/track/4XKj7iRK8QstOH4sG67YJf?si=e9bdfee53e2d4232" },] },
@@ -110,19 +108,19 @@ const days = [
             { text: "The Office - 12 Days of Christmas Clip", url: "https://youtu.be/m29KmOSh0Mw?feature=shared" }] },
     { image: "assets/peanutsputtinguptree.jpg",
         message: `“Peanuts” is an American comic strip that ran from 1950 to 2000, with various re-runs after. You may
-     have heard of it before, but if not, you’ve at least certainly seen some of the characters from it (Snoopy!). 
-     There are short films from the cartoon from various holidays, including Valentine’s Day, Halloween, Thanksgiving, 
-     and of course, Christmas. :)`,
+    have heard of it before, but if not, you’ve at least certainly seen some of the characters from it (Snoopy!). 
+    There are short films from the cartoon from various holidays, including Valentine’s Day, Halloween, Thanksgiving, 
+    and of course, Christmas. :)`,
         links: [{ text: "Charlie Brown Christmas", url: "https://youtu.be/LCz4FNe_S1U?feature=shared" },
             { text: "Celebrating 70 Years of Peanuts", url: "https://schulzmuseum.org/70-years-of-peanuts-online/" },] },
     { image: "assets/krampus.jpg",
         message: `In the olden days, they used to tell ghost stories on Christmas Eve, so it’s only appropriate
-     that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
-     Christmas” (that movie that I told you about where the Halloween monsters take over Christmas). Jack Skellington 
-     accidentally travels from Halloween Land to Christmas Land and discovers the wonder of the holiday. He later 
-     decides that the Halloween creatures should take over Christmas, so he kidnaps Santa and tries to take his place haha.
-     Also, a little note from the song: “daffy” means “crazy.” The second video is about Krampus, the evil companion of
-     St. Nicholas (Santa) who terrorizes children around Christmas. `,
+    that there be a little haunted element in the calendar. ~ The first is a song from “The Nightmare Before 
+    Christmas” (that movie that I told you about where the Halloween monsters take over Christmas). Jack Skellington 
+    accidentally travels from Halloween Land to Christmas Land and discovers the wonder of the holiday. He later 
+    decides that the Halloween creatures should take over Christmas, so he kidnaps Santa and tries to take his place haha.
+    Also, a little note from the song: “daffy” means “crazy.” The second video is about Krampus, the evil companion of
+    St. Nicholas (Santa) who terrorizes children around Christmas. `,
         links: [{ text: "What's This? (from The Nightmare Before Christmas", url: "https://youtu.be/o36k8upu3Ks?feature=shared" },
             { text: "Krampus", url: "https://youtu.be/VbkGuCozc9M?feature=shared" },] },
     { image: "assets/stocking.jpeg",
@@ -276,30 +274,42 @@ function openModal(day) {
     modal.style.display = "flex";
 }
 createCalendar();
+/* Selects the modal element using its ID
+Sets its display style to "none", hiding it
+*/
 function closeModal() {
     const modal = document.getElementById("modal");
     modal.style.display = "none";
 }
+/*
+- Selects the close button element with teh ID "close"
+- Adds a click event listener that triggers the closeModal() function
+- Listens for clicks anywhere on the window
+- If the click target is the modal itself (outside the content area), it calls closeModal() to hide the modal
+*/
 (_a = document.getElementById("close")) === null || _a === void 0 ? void 0 : _a.addEventListener("click", closeModal);
 window.addEventListener("click", (event) => {
     const modal = document.getElementById("modal");
     if (event.target === modal)
         closeModal();
 });
-// Select envelope image and modal elements
+// The clickable envelope image
 const envelope = document.getElementById("envelope");
+// The modal associated with the envelope
 const envelopeModal = document.getElementById("envelope-modal");
+// The close button inside the envelope modal
 const envelopeClose = document.getElementById("envelope-close");
-// Show modal when envelope is clicked
+// Show modal when envelope is clicked by changing display to "flex"
 envelope.addEventListener("click", () => {
     envelopeModal.style.display = "flex";
 });
-// Close modal when 'x' button is clicked
+// Close modal when 'x' button is clicked by changing display to "none"
 envelopeClose.addEventListener("click", () => {
     envelopeModal.style.display = "none";
 });
 // Close modal when clicking outside of it
 window.addEventListener("click", (event) => {
+    // envelopeModal is the background overlay around the modal content
     if (event.target === envelopeModal) {
         envelopeModal.style.display = "none";
     }
