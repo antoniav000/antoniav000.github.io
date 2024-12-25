@@ -215,19 +215,25 @@ const days = [
         ] },
 ];
 /**
-   * This function creates the calendar by creating each day from the days array to add to the
-   * calendar (creates the dayDiv, adds the image, creates the button, adds it all to the calendar)
-   */
+ * This function creates the calendar by creating each day from the days array to add to the
+ * calendar (creates the dayDiv, adds the image, creates the button, adds it all to the calendar)
+ */
 function createCalendar() {
     const calendar = document.getElementById("calendar");
     if (!calendar)
         return;
     //Get current date
     const today = new Date();
-    // For each day, it create a div and add its image to that dayDiv
+    // For each day in the days array, it creates a div and adds its image to that dayDiv
     days.forEach((day, index) => {
         const dayDiv = document.createElement("div");
+        // dayDiv.classList is an object that represents the list of classes assigned to the dayDiv element
+        // the classList property provides methods to manipulate classes of an element, so here we're adding 
+        // a "calendar-day" to each one
         dayDiv.classList.add("calendar-day");
+        // For each day, it creates an img element, with the source URL set to the image property of the day object
+        // The alt text is set to indicate which day the image corresponds to ("Day 1", "Day 2", etc.)
+        // The image is then appended to day Div
         const img = document.createElement("img");
         img.src = day.image;
         img.alt = `Day ${index + 1}`;
@@ -236,9 +242,9 @@ function createCalendar() {
         const button = document.createElement("button");
         //Set the button text
         button.textContent = `Dec. ${index + 1}`;
-        //Give each day a date by making it the current year, December, and the day's index
-        //If the day's date is less than or equal to the current date (today = new Date()),
-        //then it's locked. Otherwise, on click, it opens the day. 
+        // Give each day a date by setting it to the current year, December, and the day's index
+        // If the day's date is <= the current date (today = new Date()), then it's locked (button is disabled), and the text content says "Locked".
+        // Otherwise, on click, it opens the day. 
         const dayDate = new Date(today.getFullYear(), 11, index + 1); // December (month 11) since it starts at 0, index + 1
         if (today < dayDate) {
             button.textContent = "Locked";
@@ -247,21 +253,36 @@ function createCalendar() {
         else {
             button.addEventListener("click", () => openModal(day));
         }
-        // Adding the buttons and dayDivs to the calendar
+        // For each day, append the button and dayDiv to the calendar
         dayDiv.appendChild(button);
         calendar === null || calendar === void 0 ? void 0 : calendar.appendChild(dayDiv);
     });
 }
 /**
-    * This function opens the days' content.
-    */
+ * This function displays the content for a specific day in a modal when the user click on a day button.
+ */
 function openModal(day) {
+    // First, it retrieves the DOM (Document Object Model) elements
+    // The modal container (div) where the day's content will be displayed
     const modal = document.getElementById("modal");
+    // Day-title heading where the day number will be shown
     const dayTitle = document.getElementById("day-title");
+    // A paragraph element where the day's message or description will be shown
     const dayMessage = document.getElementById("day-message");
+    // A div that will contain clickable links associated with each day
     const linksDiv = document.getElementById("links");
+    // Set title for the day
     dayTitle.textContent = `Day ${days.indexOf(day) + 1}`;
+    // Display the day's message
     dayMessage.textContent = day.message;
+    // First, the innerHTML of linkeDiv is cleared to remove any previously displayed links
+    // The function then loops through the links array of the day object
+    // For each link, an anchor <a> element is created
+    // The href attribute is set to the URL from link.url
+    // The textContent is set to the link.tex, which is the text to display for the link
+    // The target="_blank" ensures that the link will open in a new tab when clicked
+    // The anchor is appended to the linksDiv
+    // A line brea <br> is added after each link for proper spacing
     linksDiv.innerHTML = "";
     day.links.forEach(link => {
         const anchor = document.createElement("a");
@@ -271,22 +292,25 @@ function openModal(day) {
         linksDiv.appendChild(anchor);
         linksDiv.appendChild(document.createElement("br"));
     });
+    // Finally, the modal is made visible by setting its display style property to "flex" (the default is something like "none")
     modal.style.display = "flex";
 }
 createCalendar();
-/* Selects the modal element using its ID
-Sets its display style to "none", hiding it
-*/
+/**
+ * This function selects the modal using its ID
+ * Then sets its display style to "none" to hide it
+ */
 function closeModal() {
     const modal = document.getElementById("modal");
     modal.style.display = "none";
 }
-/*
-- Selects the close button element with teh ID "close"
-- Adds a click event listener that triggers the closeModal() function
-- Listens for clicks anywhere on the window
-- If the click target is the modal itself (outside the content area), it calls closeModal() to hide the modal
-*/
+/**
+ * This function closes a modal
+ * Selects the close button element with the ID "close"
+ * Adds a click event listener that triggers the closeModal() function
+ * Listens for clicks anywhere on the window
+ * If the click target is the modal itself (outside the content area), it calls closeModal() to hide the modal
+ */
 (_a = document.getElementById("close")) === null || _a === void 0 ? void 0 : _a.addEventListener("click", closeModal);
 window.addEventListener("click", (event) => {
     const modal = document.getElementById("modal");
