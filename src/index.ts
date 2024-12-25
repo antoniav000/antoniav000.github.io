@@ -242,9 +242,9 @@ interface DayContent {
     ] },
 ];
   /**
-     * This function creates the calendar by creating each day from the days array to add to the 
-     * calendar (creates the dayDiv, adds the image, creates the button, adds it all to the calendar)
-     */
+   * This function creates the calendar by creating each day from the days array to add to the 
+   * calendar (creates the dayDiv, adds the image, creates the button, adds it all to the calendar)
+   */
  function createCalendar() {
   const calendar = document.getElementById("calendar");
   if (!calendar) return;
